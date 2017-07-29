@@ -1,0 +1,143 @@
+<!DOCTYPE template>
+
+<Template>
+
+				
+		<WidgetGroup>
+		<ObjectName>Microphone</ObjectName>
+		<MinimumSize>215,45</MinimumSize>
+		<SizePolicy>f,f</SizePolicy>
+		<Children>	
+
+		<!--
+		****************************************
+		Button - Talk!
+		****************************************
+		-->
+						
+		<PushButton>
+			<Pos>7,8</Pos>
+			<NumberStates>2</NumberStates>
+			<State>
+			<Number>0</Number>
+			<Pressed>skin:graphics/btn_talk_pressed.svg</Pressed>
+			<Unpressed>skin:graphics/btn_talk.svg</Unpressed>
+			</State>
+			<State>
+			<Number>1</Number>
+			<Pressed>skin:graphics/btn_talk_pressed.svg</Pressed>
+			<Unpressed>skin:graphics/btn_talk_pressed.svg</Unpressed>
+			</State>					
+			<Connection>
+			<ConfigKey>[Microphone<Variable name="audiochannel"/>],talkover</ConfigKey>
+			<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+			<ButtonState>LeftButton</ButtonState>
+			</Connection>
+		</PushButton>
+						
+		<!--
+		**********************************************
+		Button - Mix Orientation (Routing)
+		**********************************************
+		-->
+		
+		<PushButton>
+			<Pos>65,8</Pos>
+			<NumberStates>3</NumberStates>
+			<State>
+			<Number>0</Number>
+			<Pressed>skin:graphics/btn_orientation_left.svg</Pressed>
+			<Unpressed>skin:graphics/btn_orientation_left.svg</Unpressed>
+			</State>
+			<State>
+			<Number>1</Number>
+			<Pressed>skin:graphics/btn_orientation_master.svg</Pressed>
+			<Unpressed>skin:graphics/btn_orientation_master.svg</Unpressed>
+			</State>
+			<State>
+			<Number>2</Number>
+			<Pressed>skin:graphics/btn_orientation_right.svg</Pressed>
+			<Unpressed>skin:graphics/btn_orientation_right.svg</Unpressed>
+			</State>					
+			<Connection>
+			<ConfigKey>[Microphone<Variable name="audiochannel"/>],orientation</ConfigKey>
+			<EmitOnDownPress>true</EmitOnDownPress>
+			<ButtonState>LeftButton</ButtonState>
+			</Connection>
+		</PushButton>
+
+		<!--
+		**********************************************
+		Visual - Volume level display
+		**********************************************
+		-->
+						
+		<VuMeter>
+			<PathVu>skin:graphics/volume_display_microphone_pressed.svg</PathVu>
+			<PathBack>skin:graphics/volume_display_microphone.svg</PathBack>
+			<Pos>72,26</Pos>
+			<Horizontal>true</Horizontal>
+			<PeakHoldSize>5</PeakHoldSize>
+			<PeakHoldTime>600</PeakHoldTime>
+			<PeakFallTime>100</PeakFallTime>
+			<PeakFallStep>1</PeakFallStep>
+			<Connection>
+			<ConfigKey>[Microphone<Variable name="audiochannel"/>],VuMeter</ConfigKey>
+			</Connection>
+		</VuMeter>
+						
+		<!--
+		**********************************************
+		Visual - Volume peak indicator
+		**********************************************
+		-->
+						
+		<StatusLight>
+			<Pos>142,26</Pos>
+			<PathStatusLight>skin:graphics/volume_clipping_microphone_pressed.svg</PathStatusLight>
+			<PathBack>skin:graphics/volume_clipping_microphone.svg</PathBack>							
+			<Connection>
+			<ConfigKey>[Microphone<Variable name="audiochannel"/>],PeakIndicator</ConfigKey>
+			</Connection>
+		</StatusLight>
+		
+		<!--
+		**********************************************
+		Text - Channel Number
+		**********************************************
+		-->
+		
+		<Label>
+			<ObjectName>MicrophoneLabel</ObjectName>
+			<Pos>100,10</Pos>
+			<Size>10,10</Size>
+			<Text>MIC <Variable name="audiochannel"/></Text>
+		</Label>
+
+		<!--
+		**********************************************
+		Knob - Channel Volume
+		**********************************************
+		-->
+		
+		<KnobComposed>
+			<Pos>166,3</Pos>
+			<Size>40f,40f</Size>
+			<BackPath>skin:graphics/background_knob5.svg</BackPath>
+			<Knob>skin:graphics/pointer_knob1.svg</Knob>
+			<MinAngle>-130</MinAngle>
+			<MaxAngle>130</MaxAngle>
+			<Connection>
+			<ConfigKey>[Microphone<Variable name="audiochannel"/>],pregain</ConfigKey>
+			</Connection>
+		</KnobComposed>						
+	
+
+		</Children>
+		<Connection>
+		<ConfigKey>[MicModule<Variable name="audiochannel"/>],show</ConfigKey>
+		<BindProperty>visible</BindProperty>
+		</Connection>		
+		</WidgetGroup>
+	
+</Template>
