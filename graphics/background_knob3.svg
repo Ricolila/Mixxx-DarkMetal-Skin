@@ -29,7 +29,7 @@
       <stop
          id="stop4765"
          offset="1"
-         style="stop-color:#c8c8c8;stop-opacity:0" />
+         style="stop-color:#fafafa;stop-opacity:0" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -281,7 +281,7 @@
        xlink:href="#linearGradient4767"
        id="radialGradient4669"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(7.3660571e-7,-2.0982023,0.93676241,3.2886464e-7,-947.65817,994.12266)"
+       gradientTransform="matrix(-4.8927904e-8,-1.2799211,0.94277919,-3.6039885e-8,-953.87346,1009.0359)"
        cx="-18.224609"
        cy="1032.9814"
        fx="-18.224609"
@@ -296,8 +296,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.842657"
-     inkscape:cx="31.346493"
-     inkscape:cy="15.673608"
+     inkscape:cx="18.693348"
+     inkscape:cy="15.95492"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"

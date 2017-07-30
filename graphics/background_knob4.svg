@@ -27,7 +27,7 @@
          offset="0"
          id="stop4541" />
       <stop
-         style="stop-color:#7f7f7f;stop-opacity:0;"
+         style="stop-color:#ffffff;stop-opacity:0"
          offset="1"
          id="stop4543" />
     </linearGradient>
@@ -257,7 +257,7 @@
        fx="20"
        fy="1032.3622"
        r="11.880342"
-       gradientTransform="matrix(1.0720955,3.9970226e-8,-6.7338131e-8,1.8061671,-1.4418413,-832.2554)"
+       gradientTransform="matrix(1.0196622,4.4550237e-8,-6.1446045e-8,1.4063721,-0.3931821,-419.52217)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -268,7 +268,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.842657"
-     inkscape:cx="0.36049079"
+     inkscape:cx="-12.292654"
      inkscape:cy="16.141541"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
