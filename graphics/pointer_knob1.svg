@@ -205,7 +205,7 @@
        x2="19.9865"
        y2="1028.1428"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94073952,0,0,1.1462193,1.1852099,-149.80866)" />
+       gradientTransform="matrix(0.94073952,0,0,1.0172673,1.1852099,-17.173448)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4207"
@@ -215,7 +215,7 @@
        x2="19.9865"
        y2="1027.3641"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0670605,0,0,1.1354538,-1.3412099,-138.72821)" />
+       gradientTransform="matrix(1.0670605,0,0,1.007713,-1.3412099,-7.3395703)" />
     <pattern
        y="0"
        x="0"
@@ -232,7 +232,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="18.16226"
-     inkscape:cx="14.905495"
+     inkscape:cx="5.9583706"
      inkscape:cy="20.964905"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -279,22 +279,22 @@
      id="layer1"
      transform="translate(0,-1012.3622)">
     <rect
-       style="opacity:1;fill:url(#linearGradient4205);fill-opacity:1;stroke:none;stroke-width:0.56067407;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient4205);fill-opacity:1;stroke:none;stroke-width:0.52819484;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4217-0"
        width="4"
-       height="9.3084583"
+       height="8.2612381"
        x="18"
-       y="1019.8417"
+       y="1020.8889"
        rx="0.47160015"
-       ry="0.81200749" />
+       ry="0.72065502" />
     <rect
-       style="opacity:1;fill:url(#linearGradient4213);fill-opacity:1;stroke:none;stroke-width:0.63826686;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient4213);fill-opacity:1;stroke:none;stroke-width:0.60129279;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4217"
        width="3"
-       height="9"
+       height="7.9874821"
        x="18.5"
-       y="1019.362"
+       y="1020.4632"
        rx="0.44326451"
-       ry="0.56935042" />
+       ry="0.50529736" />
   </g>
 </svg>
