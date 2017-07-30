@@ -216,7 +216,7 @@
        fx="20.06847"
        fy="1032.6978"
        r="13.614053"
-       gradientTransform="matrix(-0.00223524,-6.6255654,1.2126985,0,-1232.3061,1165.328)"
+       gradientTransform="matrix(-0.00272018,-6.6255654,1.4757972,0,-1503.9978,1165.328)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -227,8 +227,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.842657"
-     inkscape:cx="11.378151"
-     inkscape:cy="16.531546"
+     inkscape:cx="-1.2179963"
+     inkscape:cy="16.501383"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"

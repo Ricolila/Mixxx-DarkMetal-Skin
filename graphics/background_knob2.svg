@@ -188,7 +188,7 @@
        inkscape:collect="always"
        id="linearGradient4858">
       <stop
-         style="stop-color:#b4b4b4;stop-opacity:1"
+         style="stop-color:#dcdcdc;stop-opacity:1"
          offset="0"
          id="stop4860" />
       <stop
@@ -228,7 +228,7 @@
        fx="20.06847"
        fy="1032.6978"
        r="13.614053"
-       gradientTransform="matrix(-0.0016693,-4.9480466,0.90565683,0,-915.23629,1131.6625)"
+       gradientTransform="matrix(-0.00255485,-4.9480466,1.3860982,0,-1411.3693,1131.6625)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -241,6 +241,159 @@
        r="13.614053"
        gradientTransform="matrix(-1.3185495e-5,-0.26667808,0.2671697,-1.4142661e-7,-255.9054,1037.7143)"
        gradientUnits="userSpaceOnUse" />
+    <clipPath
+       id="clipPath4910-8"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         clip-path="none"
+         y="1009.5824"
+         x="-3.4462209"
+         height="35.654499"
+         width="50.79744"
+         id="rect4912-8"
+         style="fill:#1a1a1a;fill-opacity:0;stroke:#ff0000;stroke-width:1.69064653;stroke-miterlimit:4;stroke-dasharray:none" />
+    </clipPath>
+    <clipPath
+       id="clipPath4154-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="1011.5597"
+         x="-8.2727222"
+         height="29.346857"
+         width="57.790737"
+         id="rect4156-5"
+         style="fill:#1a1a1a;fill-opacity:0;stroke:#ff0000;stroke-width:0.96399999;stroke-miterlimit:4;stroke-dasharray:none" />
+    </clipPath>
+    <filter
+       id="filter4209-5"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4211-6"
+         result="blur"
+         stdDeviation="1 1.05" />
+    </filter>
+    <filter
+       id="filter4321-6"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4323-0"
+         result="blur"
+         stdDeviation="1 1.05" />
+    </filter>
+    <filter
+       id="filter4207-0"
+       inkscape:label="Opacity"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur4209-2"
+         result="fbSourceGraphic"
+         stdDeviation="0.5 0.55" />
+      <feColorMatrix
+         id="feColorMatrix4223-7"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="colormatrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -9.6 "
+         id="feColorMatrix4225-5" />
+      <feComposite
+         result="fbSourceGraphic"
+         k2="1"
+         operator="arithmetic"
+         in2="colormatrix"
+         id="feComposite4227-2" />
+      <feColorMatrix
+         id="feColorMatrix4235-9"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="colormatrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -9.6 "
+         id="feColorMatrix4237-1" />
+      <feComposite
+         result="fbSourceGraphic"
+         k2="1.38778e-016"
+         operator="arithmetic"
+         in2="colormatrix"
+         id="feComposite4239-5" />
+      <feColorMatrix
+         id="feColorMatrix4247-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="colormatrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -9.6 "
+         id="feColorMatrix4249-5" />
+      <feComposite
+         result="fbSourceGraphic"
+         k2="1"
+         operator="arithmetic"
+         in2="colormatrix"
+         id="feComposite4251-3" />
+      <feColorMatrix
+         id="feColorMatrix4253-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="colormatrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -9.6 "
+         id="feColorMatrix4255-0" />
+      <feComposite
+         result="fbSourceGraphic"
+         k2="1"
+         operator="arithmetic"
+         in2="colormatrix"
+         id="feComposite4257-8" />
+      <feColorMatrix
+         id="feColorMatrix4259-9"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="colormatrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -9.6 "
+         id="feColorMatrix4261-9" />
+      <feComposite
+         result="fbSourceGraphic"
+         k2="0.6"
+         operator="arithmetic"
+         in2="colormatrix"
+         id="feComposite4263-1" />
+      <feColorMatrix
+         id="feColorMatrix4265-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         result="colormatrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 -9.6 "
+         id="feColorMatrix4267-0" />
+      <feComposite
+         result="composite"
+         k2="0.6"
+         operator="arithmetic"
+         in2="colormatrix"
+         id="feComposite4269-5" />
+    </filter>
+    <pattern
+       id="EMFhbasepattern-2"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -250,8 +403,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.842657"
-     inkscape:cx="-6.3004648"
-     inkscape:cy="27.975857"
+     inkscape:cx="9.8955604"
+     inkscape:cy="21.902347"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
