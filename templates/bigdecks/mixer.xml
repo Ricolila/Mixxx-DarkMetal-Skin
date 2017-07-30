@@ -34,7 +34,7 @@
 		<Layout>vertical</Layout>
 		<Children>
 		<Label>
-		<Style>font:18px/20px; background:transparent; color:#555555;</Style>
+		<Style>font:18px/20px; background:transparent; color:#777777;</Style>
 		<Text><Variable name="audiochannel_a"/>|<Variable name="audiochannel_b"/></Text>
 		</Label>
 		</Children>			
