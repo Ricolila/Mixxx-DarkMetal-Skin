@@ -21,27 +21,15 @@
      id="defs4224">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient4207">
+       id="linearGradient4575">
       <stop
-         style="stop-color:#333333;stop-opacity:1"
+         style="stop-color:#c8c8c8;stop-opacity:1"
          offset="0"
-         id="stop4209" />
+         id="stop4571" />
       <stop
-         style="stop-color:#666666;stop-opacity:1"
+         style="stop-color:#000000;stop-opacity:1"
          offset="1"
-         id="stop4211" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4199">
-      <stop
-         style="stop-color:#cccccc;stop-opacity:1"
-         offset="0"
-         id="stop4201" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="1"
-         id="stop4203" />
+         id="stop4573" />
     </linearGradient>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -196,26 +184,17 @@
        width="6"
        patternUnits="userSpaceOnUse"
        id="EMFhbasepattern" />
-    <linearGradient
+    <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4199"
-       id="linearGradient4205"
-       x1="19.9865"
-       y1="1020.6677"
-       x2="19.9865"
-       y2="1028.1428"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94073956,0,0,1.1462193,1.1852099,-146.80852)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4207"
-       id="linearGradient4213"
-       x1="19.9865"
-       y1="1020.8624"
-       x2="19.9865"
-       y2="1027.3641"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0670605,0,0,1.1354538,-1.3412099,-135.72807)" />
+       xlink:href="#linearGradient4575"
+       id="radialGradient4577"
+       cx="20"
+       cy="1027.2999"
+       fx="20"
+       fy="1027.2999"
+       r="1.5"
+       gradientTransform="matrix(2.2977585,0,0,9.8758319,-25.955168,-9118.0054)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -225,8 +204,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="25.685315"
-     inkscape:cx="2.3972596"
-     inkscape:cy="23.393269"
+     inkscape:cx="13.524107"
+     inkscape:cy="24.120124"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -271,27 +250,23 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1012.3622)">
-    <g
-       id="g4556"
-       transform="matrix(1,0,0,0.78521251,0,220.99513)">
-      <rect
-         ry="0.81200749"
-         rx="0.47160017"
-         y="1022.8417"
-         x="18"
-         height="9.3084583"
-         width="4"
-         id="rect4217-0"
-         style="opacity:1;fill:url(#linearGradient4205);fill-opacity:1;stroke:none;stroke-width:0.56067407;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         ry="0.56935042"
-         rx="0.44326451"
-         y="1022.362"
-         x="18.5"
-         height="9"
-         width="3"
-         id="rect4217"
-         style="opacity:1;fill:url(#linearGradient4213);fill-opacity:1;stroke:none;stroke-width:0.63826686;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+    <rect
+       style="opacity:1;fill:#0a0a0a;fill-opacity:1;stroke:none;stroke-width:0.49682572;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4217-0"
+       width="4"
+       height="7.3091178"
+       x="18"
+       y="1024.1432"
+       rx="0.47160017"
+       ry="0.63759845" />
+    <rect
+       style="opacity:1;fill:url(#radialGradient4577);fill-opacity:1;stroke:none;stroke-width:0.5545696;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4217"
+       width="3"
+       height="6.7943835"
+       x="18.5"
+       y="1024.0391"
+       rx="0.44326451"
+       ry="0.42982054" />
   </g>
 </svg>
