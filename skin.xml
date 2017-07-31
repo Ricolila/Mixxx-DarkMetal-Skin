@@ -168,23 +168,7 @@
 	<attribute persist="true" config_key="[EffectsModule1],show">1</attribute>
 	<attribute persist="true" config_key="[EffectsModule2],show">0</attribute>
 	<attribute persist="true" config_key="[EffectsModule3],show">0</attribute>
-	<attribute persist="true" config_key="[EffectsModule4],show">0</attribute>	
-	
-	<!-- Effects: (By default, the ON/OFF buttons are OFF) - Not used! -->
-	<!--
-	<attribute config_key="[EffectRack1_EffectUnit1_Effect1],enabled">0</attribute>
-	<attribute config_key="[EffectRack1_EffectUnit2_Effect1],enabled">0</attribute>
-	<attribute config_key="[EffectRack1_EffectUnit3_Effect1],enabled">0</attribute>
-	<attribute config_key="[EffectRack1_EffectUnit4_Effect1],enabled">0</attribute>
-	-->
-		
-	<!-- Effects: (By default, the master channel is enabled in all modules) - Not used! -->
-	<!--
-	<attribute config_key="[EffectRack1_EffectUnit1],group_[Master]_enable">0</attribute>
-	<attribute config_key="[EffectRack1_EffectUnit2],group_[Master]_enable">0</attribute>
-	<attribute config_key="[EffectRack1_EffectUnit3],group_[Master]_enable">0</attribute>
-	<attribute config_key="[EffectRack1_EffectUnit4],group_[Master]_enable">0</attribute>
-	-->	
+	<attribute persist="true" config_key="[EffectsModule4],show">0</attribute>
 	
 	<!-- Samplers: (Racks + Modules) -->
 	<attribute persist="true" config_key="[SamplersRack],show">0</attribute>
