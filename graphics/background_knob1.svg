@@ -216,7 +216,7 @@
        fx="20.06847"
        fy="1032.6978"
        r="13.614053"
-       gradientTransform="matrix(2.8039463,-6.091653e-6,-2.1343688e-4,1.3556991,-36.0513,-367.6649)"
+       gradientTransform="matrix(2.8039463,-6.5711437e-4,0,1.9905652,-36.271715,-1023.2767)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -237,9 +237,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.842657"
-     inkscape:cx="3.4829486"
-     inkscape:cy="25.481079"
+     inkscape:zoom="9.0811299"
+     inkscape:cx="5.9961181"
+     inkscape:cy="15.555065"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
