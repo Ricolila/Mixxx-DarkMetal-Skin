@@ -78,8 +78,8 @@
 	<NumberStates>1</NumberStates>
 	<State>
 	<Number>0</Number>
-	<Pressed>skin:graphics/btn_samplers_eject_bank.svg</Pressed>
-	<Unpressed>skin:graphics/btn_samplers_eject_bank.svg</Unpressed>
+	<Pressed>skin:graphics/btn_options_clear.svg</Pressed>
+	<Unpressed>skin:graphics/btn_options_clear.svg</Unpressed>
 	</State>
 	<Connection>
 	<ConfigKey>[Sampler1],eject</ConfigKey>
@@ -115,8 +115,8 @@
 	<NumberStates>1</NumberStates>
 	<State>
 	<Number>0</Number>
-	<Pressed>skin:graphics/btn_samplers_load_bank.svg</Pressed>
-	<Unpressed>skin:graphics/btn_samplers_load_bank.svg</Unpressed>
+	<Pressed>skin:graphics/btn_options_load.svg</Pressed>
+	<Unpressed>skin:graphics/btn_options_load.svg</Unpressed>
 	</State>
 	<Connection>
 	<ConfigKey>[Sampler],LoadSamplerBank</ConfigKey>
@@ -128,8 +128,8 @@
 	<NumberStates>1</NumberStates>
 	<State>
 	<Number>0</Number>
-	<Pressed>skin:graphics/btn_samplers_save_bank.svg</Pressed>
-	<Unpressed>skin:graphics/btn_samplers_save_bank.svg</Unpressed>
+	<Pressed>skin:graphics/btn_options_save.svg</Pressed>
+	<Unpressed>skin:graphics/btn_options_save.svg</Unpressed>
 	</State>
 	<Connection>
 	<ConfigKey>[Sampler],SaveSamplerBank</ConfigKey>

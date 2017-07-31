@@ -71,8 +71,8 @@
 		<NumberStates>1</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_samplers_eject_bank.svg</Pressed>
-		<Unpressed>skin:graphics/btn_samplers_eject_bank.svg</Unpressed>
+		<Pressed>skin:graphics/btn_options_clear.svg</Pressed>
+		<Unpressed>skin:graphics/btn_options_clear.svg</Unpressed>
 		</State>
 		<Connection>
 		<ConfigKey>[EffectRack1],clear</ConfigKey>
