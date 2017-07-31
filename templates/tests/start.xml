@@ -118,7 +118,7 @@
 		<Unpressed>skin:graphics/btn_view_pressed.svg</Unpressed>
 		</State>		
 		<Connection>
-		<ConfigKey>[Hifi],show</ConfigKey>
+		<ConfigKey>[EffectRack1],clear</ConfigKey>
 		</Connection>	
 		</PushButton>
 		

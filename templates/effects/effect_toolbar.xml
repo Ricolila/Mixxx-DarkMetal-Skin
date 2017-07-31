@@ -61,6 +61,33 @@
 		<Children>
 		<Label>
 		<Style>font:10px/12px; background:transparent; color:#484848;</Style>
+		<Text>Options</Text>
+		</Label>
+		</Children>			
+		</WidgetGroup>
+		
+		<!-- Button: Clear Bank -->
+		<PushButton>
+		<NumberStates>1</NumberStates>
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_samplers_eject_bank.svg</Pressed>
+		<Unpressed>skin:graphics/btn_samplers_eject_bank.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[EffectRack1],clear</ConfigKey>
+		</Connection>
+		</PushButton>
+		
+		<!-- Texts -->
+		<WidgetGroup>
+		<ObjectName>Texts</ObjectName>	
+		<MinimumSize>60,30</MinimumSize>
+		<SizePolicy>f,f</SizePolicy>
+		<Layout>vertical</Layout>
+		<Children>
+		<Label>
+		<Style>font:10px/12px; background:transparent; color:#484848;</Style>
 		<Text>Modules</Text>
 		</Label>
 		</Children>			
