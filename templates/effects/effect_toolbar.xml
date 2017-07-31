@@ -152,7 +152,32 @@
 		</Children>
 		</WidgetGroup>
 		
+		<!-- Texts -->
+		<WidgetGroup>
+		<ObjectName>Texts</ObjectName>	
+		<MinimumSize>60,30</MinimumSize>
+		<SizePolicy>f,f</SizePolicy>
+		<Layout>vertical</Layout>
+		<Children>
+		<Label>
+		<Style>font:10px/12px; background:transparent; color:#484848;</Style>
+		<Text>Options</Text>
+		</Label>
+		</Children>			
+		</WidgetGroup>
 		
+		<!-- Button: Clear -->
+		<PushButton>
+		<NumberStates>1</NumberStates>
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_options_clear.svg</Pressed>
+		<Unpressed>skin:graphics/btn_options_clear.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[EffectRack1],clear</ConfigKey>
+		</Connection>
+		</PushButton>		
 		
 		<!-- Texts -->
 		<WidgetGroup>

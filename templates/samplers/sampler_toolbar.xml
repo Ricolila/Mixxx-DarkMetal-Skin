@@ -217,7 +217,7 @@
 	</Children>			
 	</WidgetGroup>
 	
-	<!-- Button: Clear (Eject) Bank -->
+	<!-- Button: Clear Bank -->
 	<PushButton>
 	<NumberStates>1</NumberStates>
 	<State>
