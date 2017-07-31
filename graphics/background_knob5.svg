@@ -234,12 +234,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4858-7"
        id="radialGradient4848-2-3-4"
-       cx="20.068014"
-       cy="1032.8561"
-       fx="20.068014"
-       fy="1032.8561"
+       cx="20.174076"
+       cy="1033.2277"
+       fx="20.174076"
+       fy="1033.2277"
        r="13.614053"
-       gradientTransform="matrix(-1.4683049,2.1378388e-4,0,-1.4667053,49.46543,2547.3086)"
+       gradientTransform="matrix(-1.4683049,2.1378422e-4,0,-1.4667077,49.46543,2547.311)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -249,7 +249,7 @@
          offset="0"
          id="stop4860-3" />
       <stop
-         style="stop-color:#1a1a1a;stop-opacity:1"
+         style="stop-color:#0a0a0a;stop-opacity:1"
          offset="1"
          id="stop4862-4" />
     </linearGradient>
@@ -273,7 +273,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.842657"
-     inkscape:cx="10.101557"
+     inkscape:cx="-2.5515879"
      inkscape:cy="13.842729"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -316,7 +316,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssscsc" />
     <path
-       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.83272445;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.55;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.83272445;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 32.604031,1036.2014 c 0,11.5654 -5.643038,16.1608 -12.604032,16.1608 -6.960994,0 -12.6039936,-4.7612 -12.6040298,-16.1608 -5.73e-5,-8.9254 5.6429758,-16.1609 12.6040298,-16.1609 6.961055,0 12.604032,7.2355 12.604032,16.1609 z"
        id="path4744-33-0"
        inkscape:connector-curvature="0"
