@@ -25,7 +25,7 @@
       <stop
          id="stop4538"
          offset="0"
-         style="stop-color:#141414;stop-opacity:1" />
+         style="stop-color:#000000;stop-opacity:1" />
       <stop
          id="stop4540"
          offset="1"
@@ -49,7 +49,7 @@
       <stop
          id="stop4526"
          offset="0"
-         style="stop-color:#ffffff;stop-opacity:1" />
+         style="stop-color:#c8c8c8;stop-opacity:1" />
       <stop
          id="stop4528"
          offset="1"
@@ -248,11 +248,11 @@
        xlink:href="#linearGradient4858"
        id="radialGradient4848-2"
        cx="20.06847"
-       cy="1031.0507"
+       cy="1030.1587"
        fx="20.06847"
-       fy="1031.0507"
+       fy="1030.1587"
        r="13.614053"
-       gradientTransform="matrix(-2.604651,7.6098995e-4,0,-2.3052305,72.270614,3403.7141)"
+       gradientTransform="matrix(-3.0414341,9.5752106e-4,0,-2.1272928,81.036185,3220.4422)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -263,7 +263,7 @@
        fx="20.105827"
        fy="1026.7292"
        r="13.614053"
-       gradientTransform="matrix(-1.805804,3.2660076e-4,-5.7175827e-7,-1.6237164,56.188875,2699.0877)"
+       gradientTransform="matrix(-1.2962228,1.4022477e-4,-2.4579622e-6,-1.3325299,45.94526,2400.1217)"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -281,7 +281,7 @@
        xlink:href="#linearGradient4542"
        id="radialGradient4536"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.9127478,0,0,-2.7185905,57.629097,3803.6174)"
+       gradientTransform="matrix(-5.1304594,-1.7878517e-8,4.0977703e-8,-11.759054,121.27459,13016.569)"
        cx="19.779751"
        cy="1019.0795"
        fx="19.779751"
@@ -295,9 +295,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.842657"
-     inkscape:cx="4.7346165"
-     inkscape:cy="14.482411"
+     inkscape:zoom="9.0811299"
+     inkscape:cx="9.7494604"
+     inkscape:cy="12.235602"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -323,7 +323,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -333,8 +333,8 @@
      id="layer1"
      transform="translate(0,-1012.3622)">
     <path
-       style="opacity:0.2;fill:none;fill-opacity:1;stroke:url(#radialGradient4173-0-4-2);stroke-width:1.48627722;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 19.999907,1017.8408 c -3.853452,0 -7.356607,1.5011 -9.956571,3.9504 -2.8104574,2.6481 -4.5649148,6.4046 -4.5649148,10.571 0,4.1589 1.7483265,7.9094 4.5503308,10.5568 2.6008,2.4577 6.110086,3.9646 9.971063,3.9646 8.020323,2e-4 14.521764,-6.5013 14.521764,-14.5214 0,-8.02 -6.501441,-14.5215 -14.521672,-14.5214 z"
+       style="opacity:0.2;fill:none;fill-opacity:1;stroke:url(#radialGradient4173-0-4-2);stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.999907,1017.8408 c -3.853452,0 -7.356607,1.5011 -9.956571,3.9504 -2.8104575,2.6481 -4.5649149,6.4046 -4.5649149,10.571 0,4.1589 1.7483265,7.9094 4.5503309,10.5568 2.6008,2.4577 6.110086,3.9646 9.971063,3.9646 8.020323,2e-4 14.521764,-6.5013 14.521764,-14.5214 0,-8.02 -6.501441,-14.5215 -14.521672,-14.5214 z"
        id="path4770-6-1-6-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssscsc" />

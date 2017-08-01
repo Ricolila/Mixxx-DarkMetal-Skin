@@ -25,7 +25,7 @@
       <stop
          id="stop4538"
          offset="0"
-         style="stop-color:#141414;stop-opacity:1" />
+         style="stop-color:#000000;stop-opacity:1" />
       <stop
          id="stop4540"
          offset="1"
@@ -281,7 +281,7 @@
        xlink:href="#linearGradient4542"
        id="radialGradient4536"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-2.059102,0,0,-2.9266039,60.508294,4015.6606)"
+       gradientTransform="matrix(-3.1948887,0,0,-7.3592244,82.973871,8532.8534)"
        cx="19.779751"
        cy="1019.0795"
        fx="19.779751"
@@ -295,9 +295,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.842657"
-     inkscape:cx="4.7346165"
-     inkscape:cy="5.1385504"
+     inkscape:zoom="9.0811299"
+     inkscape:cx="17.547607"
+     inkscape:cy="-0.49055963"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -333,8 +333,8 @@
      id="layer1"
      transform="translate(0,-1012.3622)">
     <path
-       style="opacity:0.2;fill:none;fill-opacity:1;stroke:url(#radialGradient4173-0-4-2);stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 19.9999,1016.7297 c -4.1483,0 -7.9195,1.6159 -10.7184001,4.2526 -3.0255,2.8507 -4.9142,6.8947 -4.9142,11.3799 0,4.4771 1.8821,8.5146 4.8985,11.3645 2.7998001,2.6458 6.5776001,4.268 10.7340001,4.268 8.634,2e-4 15.6329,-6.9988 15.6329,-15.6325 0,-8.6337 -6.9989,-15.6327 -15.6328,-15.6325 z"
+       style="opacity:0.2;fill:none;fill-opacity:1;stroke:url(#radialGradient4173-0-4-2);stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.9999,1016.7297 c -4.1483,0 -7.9195,1.6159 -10.7184,4.2526 -3.0255,2.8507 -4.9142,6.8947 -4.9142,11.3799 0,4.4771 1.8821,8.5146 4.8985,11.3645 2.7998,2.6458 6.5776,4.268 10.734,4.268 8.634,2e-4 15.6329,-6.9988 15.6329,-15.6325 0,-8.6337 -6.9989,-15.6327 -15.6328,-15.6325 z"
        id="path4770-6-1-6-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssscsc" />
