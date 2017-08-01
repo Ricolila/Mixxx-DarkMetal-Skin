@@ -475,8 +475,8 @@
     <Children>
 	<!-- WIDGETGROUP ROW: Microphones -->
     <Template src="skin:templates/microphones/start.xml"></Template>
-	<!-- WIDGETGROUP ROW: Big Decks -->
-	<Template src="skin:templates/bigdecks/start.xml"></Template>
+	<!-- WIDGETGROUP ROW: Big Decks (The variable "spinny" could be: "spinny_bobine.svg", "spinny_cd.svg" or "spinny_vinyl.svg") -->
+	<Template src="skin:templates/bigdecks/start.xml"><SetVariable name="spinny">spinny_bobine.svg</SetVariable></Template>
 	<!-- WIDGETGROUP ROW: Mini Decks -->
     <Template src="skin:templates/minidecks/start.xml"></Template>
 	<!-- WIDGETGROUP ROW: Auxiliaries -->

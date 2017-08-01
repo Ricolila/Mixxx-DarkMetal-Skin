@@ -61,13 +61,13 @@
 		<SizePolicy>f,me</SizePolicy>
 		<Layout>vertical</Layout>
 		<Children>		
-			<NumberDb>
-			<Text>%1</Text>
-			<Alignment>center</Alignment>
-			<Connection>
-			<ConfigKey>[Channel1],pregain</ConfigKey>
-			</Connection>
-			</NumberDb>
+		<NumberDb>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<Connection>
+		<ConfigKey>[Channel1],pregain</ConfigKey>
+		</Connection>
+		</NumberDb>
 		</Children>			
 		</WidgetGroup> 
 		
@@ -123,13 +123,13 @@
 		</PushButton>
 		
 		<NumberRate>
-		  <TooltipId>rate_display</TooltipId>
-		  <Channel>1</Channel>
-		  <Pos>X,Y</Pos>
-		  <Size>W,H</Size>
-		  <Connection>
-		  <ConfigKey>[Channel1],rate</ConfigKey>
-		  </Connection>
+		<TooltipId>rate_display</TooltipId>
+		<Channel>1</Channel>
+		<Pos>X,Y</Pos>
+		<Size>W,H</Size>
+		<Connection>
+		<ConfigKey>[Channel1],rate</ConfigKey>
+		</Connection>
 		</NumberRate>
 		
 		<NumberDb>
@@ -142,6 +142,48 @@
 
 
 	
+	
+
+
+<PushButton>
+<NumberStates>2</NumberStates>
+
+<State>
+<Number>0</Number>
+<Pressed>skin:graphics/btn_view.svg</Pressed>
+<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+</State>
+
+<State>
+<Number>1</Number>
+<Pressed>skin:graphics/btn_view.svg</Pressed>
+<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+</State>
+
+<Connection>
+<ConfigKey>[MiniDecks],show</ConfigKey>
+<EmitOnDownPress>false</EmitOnDownPress>
+<ButtonState>LeftButton</ButtonState>
+</Connection>
+
+<Connection>
+<ConfigKey>[LongWavesRack],show</ConfigKey>
+<EmitOnDownPress>false</EmitOnDownPress>
+<ButtonState>LeftButton</ButtonState>
+</Connection>
+
+</PushButton>
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	

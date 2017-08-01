@@ -25,7 +25,7 @@
 	<Children>
 	
 	<!-- WIDGETGROUP: Toolbar -->
-	<Template src="skin:templates/effects/effect_toolbar.xml">	</Template>	
+	<Template src="skin:templates/effects/effect_toolbar.xml"></Template>	
 		
 	</Children>
 	</WidgetGroup>

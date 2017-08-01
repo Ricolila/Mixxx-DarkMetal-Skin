@@ -565,17 +565,17 @@
 		-->
 		
 		<PushButton><!-- Effects: apply -->
-		<Pos>73,71</Pos>
+		<Pos>73,67</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_kill.svg</Pressed>
-		<Unpressed>skin:graphics/btn_kill.svg</Unpressed>
+		<Pressed>skin:graphics/btn_kill_rounded.svg</Pressed>
+		<Unpressed>skin:graphics/btn_kill_rounded.svg</Unpressed>
 		</State>
 		<State>
 		<Number>1</Number>
-		<Pressed>skin:graphics/btn_kill_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_kill_pressed.svg</Unpressed>
+		<Pressed>skin:graphics/btn_kill_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_kill_rounded_pressed.svg</Unpressed>
 		</State>							
 		<Connection>
 		<!-- <ConfigKey>[EffectRack1_EffectUnit<Variable name="audiochannel_a"/>],group_[BusRight]_enable</ConfigKey> -->
@@ -585,7 +585,7 @@
 		</PushButton>
 		
 		<PushButton><!-- Effects: on/off -->
-		<Pos>93,71</Pos>
+		<Pos>93,67</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
@@ -670,17 +670,17 @@
 		-->		
 		
 		<PushButton><!-- Effects: apply -->
-		<Pos>358,71</Pos>
+		<Pos>358,67</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_kill.svg</Pressed>
-		<Unpressed>skin:graphics/btn_kill.svg</Unpressed>
+		<Pressed>skin:graphics/btn_kill_rounded.svg</Pressed>
+		<Unpressed>skin:graphics/btn_kill_rounded.svg</Unpressed>
 		</State>
 		<State>
 		<Number>1</Number>
-		<Pressed>skin:graphics/btn_kill_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_kill_pressed.svg</Unpressed>
+		<Pressed>skin:graphics/btn_kill_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_kill_rounded_pressed.svg</Unpressed>
 		</State>							
 		<Connection>
 		<!-- <ConfigKey>[EffectRack1_EffectUnit<Variable name="audiochannel_b"/>],group_[BusRight]_enable</ConfigKey> -->
@@ -690,7 +690,7 @@
 		</PushButton>
 		
 		<PushButton><!-- Effects: on/off -->
-		<Pos>308,71</Pos>
+		<Pos>308,67</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
