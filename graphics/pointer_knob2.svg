@@ -193,7 +193,7 @@
        fx="20"
        fy="1027.2999"
        r="1.5"
-       gradientTransform="matrix(2.2977585,0,0,9.8758319,-25.955168,-9118.0054)"
+       gradientTransform="matrix(2.9172567,-1.126363e-5,3.0907367e-5,4.866971,-38.376887,-3972.21)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -203,9 +203,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="25.685315"
-     inkscape:cx="13.524107"
-     inkscape:cy="24.120124"
+     inkscape:zoom="51.37063"
+     inkscape:cx="18.032117"
+     inkscape:cy="22.70186"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -251,22 +251,22 @@
      id="layer1"
      transform="translate(0,-1012.3622)">
     <rect
-       style="opacity:1;fill:#0a0a0a;fill-opacity:1;stroke:none;stroke-width:0.49682572;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#0a0a0a;fill-opacity:1;stroke:none;stroke-width:0.33171856;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4217-0"
-       width="4"
-       height="7.3091178"
-       x="18"
-       y="1024.1432"
-       rx="0.47160017"
-       ry="0.63759845" />
-    <rect
-       style="opacity:1;fill:url(#radialGradient4577);fill-opacity:1;stroke:none;stroke-width:0.5545696;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4217"
        width="3"
-       height="6.7943835"
+       height="4.3444524"
        x="18.5"
-       y="1024.0391"
-       rx="0.44326451"
-       ry="0.42982054" />
+       y="1025.4565"
+       rx="0.35370016"
+       ry="0.3789809" />
+    <rect
+       style="opacity:1;fill:url(#radialGradient4577);fill-opacity:1;stroke:none;stroke-width:0.34409323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4217"
+       width="2.2500002"
+       height="3.4876189"
+       x="18.875"
+       y="1025.8849"
+       rx="0.33244839"
+       ry="0.22063075" />
   </g>
 </svg>
