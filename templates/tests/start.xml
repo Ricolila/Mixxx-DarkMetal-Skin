@@ -146,7 +146,7 @@
 
 
 <PushButton>
-<NumberStates>2</NumberStates>
+<NumberStates>3</NumberStates>
 
 <State>
 <Number>0</Number>
@@ -160,31 +160,58 @@
 <Unpressed>skin:graphics/btn_view.svg</Unpressed>
 </State>
 
-<Connection>
-<ConfigKey>[MiniDecks],show</ConfigKey>
-<EmitOnDownPress>false</EmitOnDownPress>
-<ButtonState>LeftButton</ButtonState>
-</Connection>
+<State>
+<Number>2</Number>
+<Pressed>skin:graphics/btn_view.svg</Pressed>
+<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+</State>
 
-<Connection>
-<ConfigKey>[LongWavesRack],show</ConfigKey>
-<EmitOnDownPress>false</EmitOnDownPress>
-<ButtonState>LeftButton</ButtonState>
-</Connection>
+  <Connection>
+    <ConfigKey>[MiniDecks],show</ConfigKey>
+    <EmitOnDownPress>true</EmitOnDownPress>
+  <ButtonState>LeftButton</ButtonState>
+  </Connection>
+  <Connection>
+    <ConfigKey>[LongWavesRack],show</ConfigKey>
+    <EmitOnDownPress>false</EmitOnDownPress>
+    <ButtonState>LeftButton</ButtonState>
+  </Connection>
+  <Connection>
+    <ConfigKey>[SearchTextBox1],show</ConfigKey>
+    <EmitOnDownPress>true</EmitOnDownPress>
+    <ButtonState>RightButton</ButtonState>
+  </Connection>
 
 </PushButton>
 
 
-
-
-
-
-
-
-
-
-
 	
+
+
+
+
+<Splitter>
+	<Size>50,30</Size>
+	<SizePolicy>f,f</SizePolicy>
+    <MinimumSize>50,30</MinimumSize>
+    <MaximumSize>50,30</MaximumSize>
+    <!-- <SplitSizesConfigKey>[$skin_name],$config_key</SplitSizesConfigKey> -->
+    <SplitSizes>1,1,1</SplitSizes>
+    <Orientation>horizontal</Orientation>
+    <Collapsible>1,1,1</Collapsible>
+    <Children>
+      <WidgetGroup><Style>QGroupBox {background: yellow;}</Style></WidgetGroup>
+      <WidgetGroup><Style>QGroupBox {background: red;}</Style></WidgetGroup>
+      <WidgetGroup><Style>QGroupBox {background: blue;}</Style></WidgetGroup>
+      <!-- as many regular widgets as you like in here -->
+    </Children>
+</Splitter>
+
+
+
+
+
+
 	
 	
 	<!-- ENDS: TESTS -->

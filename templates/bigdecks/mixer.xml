@@ -4,9 +4,10 @@
 	
 	<WidgetGroup>
 	<ObjectName>MixerPanel</ObjectName>
-		<BackPath>skin:graphics/background_mixer.svg</BackPath>
-		<Pos>735,0</Pos>
+		<!-- <BackPath>skin:graphics/background_mixer.svg</BackPath> -->
+		<!-- <Pos>735,0</Pos> -->
 		<MinimumSize>450,300</MinimumSize>
+		<MaximumSize>450,300</MaximumSize>
 		<SizePolicy>f,f</SizePolicy>
 		<Children>
 		

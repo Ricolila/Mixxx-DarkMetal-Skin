@@ -182,19 +182,23 @@
 		<!-- Texts -->
 		<WidgetGroup>
 		<ObjectName>Texts</ObjectName>	
-		<MinimumSize>85,30</MinimumSize>
+		<MinimumSize>105,30</MinimumSize>
 		<SizePolicy>f,f</SizePolicy>
-		<Layout>vertical</Layout>
+		<Layout>horizontal</Layout>
 		<Children>
+		<Label>
+		<Style>font:10px/12px; background:transparent; color:#484848;</Style>
+		<Text>Available Effects </Text>
+		</Label>
 		<Number>
 		<NumberOfDigits>0</NumberOfDigits>
-		<Style>font:10px/12px; background:transparent; color:#484848;</Style>
-		<Text>Total Effects %1</Text>
+		<Style>font:10px/12px; background:transparent; color:#787878;</Style>
+		<Text>%1</Text>
 		<Connection>
 		<ConfigKey>[Master],num_effectsavailable</ConfigKey>
 		</Connection>		
 		</Number>
 		</Children>			
-		</WidgetGroup>		
+		</WidgetGroup>	
 		
 </Template>

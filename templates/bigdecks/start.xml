@@ -48,26 +48,36 @@
 		<MinimumSize>0,1</MinimumSize>
 		<SizePolicy>me,f</SizePolicy>
 		<Layout>horizontal</Layout>
-		<Children>	
+		<Children>		
 		
-		<!-- WIDGETGROUP: Deck -->			  
-		<Template src="skin:templates/bigdecks/deck_left.xml">
-		<SetVariable name="audiochannel">1</SetVariable>
-		<SetVariable name="decktohide">2</SetVariable>
-		<SetVariable name="position">Left</SetVariable>
-		</Template>
-		<!-- WIDGETGROUP: Mixer Panel -->
-		<Template src="skin:templates/bigdecks/mixer.xml">
-		<SetVariable name="audiochannel_a">1</SetVariable>
-		<SetVariable name="audiochannel_b">2</SetVariable>	
-		</Template>	
-		<!-- WIDGETGROUP: Deck -->	
-		<Template src="skin:templates/bigdecks/deck_right.xml">
-		<SetVariable name="audiochannel">2</SetVariable>
-		<SetVariable name="decktohide">1</SetVariable>
-		<SetVariable name="position">Right</SetVariable>
-		</Template>
-
+		<Splitter>
+		<ObjectName>SplittersBigs</ObjectName>
+		<SplitSizes>1,1,1</SplitSizes>
+		<Orientation>horizontal</Orientation>
+		<Collapsible>0,0,0</Collapsible>
+		<Children>
+		
+			<!-- WIDGETGROUP: Deck -->			  
+			<Template src="skin:templates/bigdecks/deck_left.xml">
+			<SetVariable name="audiochannel">1</SetVariable>
+			<SetVariable name="decktohide">2</SetVariable>
+			<SetVariable name="position">Left</SetVariable>
+			</Template>
+			<!-- WIDGETGROUP: Mixer Panel -->
+			<Template src="skin:templates/bigdecks/mixer.xml">
+			<SetVariable name="audiochannel_a">1</SetVariable>
+			<SetVariable name="audiochannel_b">2</SetVariable>	
+			</Template>	
+			<!-- WIDGETGROUP: Deck -->	
+			<Template src="skin:templates/bigdecks/deck_right.xml">
+			<SetVariable name="audiochannel">2</SetVariable>
+			<SetVariable name="decktohide">1</SetVariable>
+			<SetVariable name="position">Right</SetVariable>
+			</Template>
+			
+		</Children>
+		</Splitter>
+		
 		</Children>	
 		<Connection>
 		<ConfigKey>[DeckModule1],show</ConfigKey>
@@ -89,24 +99,34 @@
 		<SizePolicy>me,f</SizePolicy>
 		<Layout>horizontal</Layout>
 		<Children>
+
+		<Splitter>
+		<ObjectName>SplittersBigs</ObjectName>
+		<SplitSizes>1,1,1</SplitSizes>
+		<Orientation>horizontal</Orientation>
+		<Collapsible>0,0,0</Collapsible>
+		<Children>
 		
-		<!-- WIDGETGROUP: Deck -->			  
-		<Template src="skin:templates/bigdecks/deck_left.xml">
-		<SetVariable name="audiochannel">3</SetVariable>
-		<SetVariable name="decktohide">4</SetVariable>
-		<SetVariable name="position">Left</SetVariable>
-		</Template>
-		<!-- WIDGETGROUP: Mixer Panel -->
-		<Template src="skin:templates/bigdecks/mixer.xml">
-		<SetVariable name="audiochannel_a">3</SetVariable>
-		<SetVariable name="audiochannel_b">4</SetVariable>	
-		</Template>	
-		<!-- WIDGETGROUP: Deck -->	
-		<Template src="skin:templates/bigdecks/deck_right.xml">
-		<SetVariable name="audiochannel">4</SetVariable>
-		<SetVariable name="decktohide">3</SetVariable>
-		<SetVariable name="position">Right</SetVariable>
-		</Template>
+			<!-- WIDGETGROUP: Deck -->			  
+			<Template src="skin:templates/bigdecks/deck_left.xml">
+			<SetVariable name="audiochannel">3</SetVariable>
+			<SetVariable name="decktohide">4</SetVariable>
+			<SetVariable name="position">Left</SetVariable>
+			</Template>
+			<!-- WIDGETGROUP: Mixer Panel -->
+			<Template src="skin:templates/bigdecks/mixer.xml">
+			<SetVariable name="audiochannel_a">3</SetVariable>
+			<SetVariable name="audiochannel_b">4</SetVariable>	
+			</Template>	
+			<!-- WIDGETGROUP: Deck -->	
+			<Template src="skin:templates/bigdecks/deck_right.xml">
+			<SetVariable name="audiochannel">4</SetVariable>
+			<SetVariable name="decktohide">3</SetVariable>
+			<SetVariable name="position">Right</SetVariable>
+			</Template>
+
+		</Children>
+		</Splitter>
 		
 		</Children>	
 		<Connection>

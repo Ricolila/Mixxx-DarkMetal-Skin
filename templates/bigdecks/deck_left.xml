@@ -4,7 +4,7 @@
 
 <WidgetGroup>
 		<ObjectName>Deck<Variable name="position"/></ObjectName>
-			<MinimumSize>265,300</MinimumSize>
+			<MinimumSize>280,300</MinimumSize>
 			<SizePolicy>me,f</SizePolicy>
 			<Layout>vertical</Layout>
 			<Children>		

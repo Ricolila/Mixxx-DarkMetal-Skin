@@ -60,7 +60,7 @@
 		<Template src="skin:templates/samplers/sampler_module.xml"><SetVariable name="samplernum">1</SetVariable></Template> <!-- Height: 110 -->
 		<Template src="skin:templates/samplers/sampler_module.xml"><SetVariable name="samplernum">2</SetVariable></Template> <!-- Height: 110 -->
 		<Template src="skin:templates/samplers/sampler_module.xml"><SetVariable name="samplernum">3</SetVariable></Template> <!-- Height: 110 -->
-		<Template src="skin:templates/samplers/sampler_module.xml"><SetVariable name="samplernum">4</SetVariable></Template> <!-- Height: 110 -->	
+		<Template src="skin:templates/samplers/sampler_module.xml"><SetVariable name="samplernum">4</SetVariable></Template> <!-- Height: 110 -->
 
 		</Children>
 		</WidgetGroup>
