@@ -12,7 +12,7 @@
 	<!-- Texts -->
 	<WidgetGroup>
 	<ObjectName>Texts</ObjectName>	
-	<MinimumSize>55,30</MinimumSize>
+	<MinimumSize>75,30</MinimumSize>
 	<SizePolicy>f,f</SizePolicy>
 	<Layout>vertical</Layout>
 	<Children>
