@@ -10,7 +10,7 @@
 			
 			<WidgetGroup>
 				<ObjectName>MiniDeck<Variable name="audiochannel"/></ObjectName>
-				<MinimumSize>1,45</MinimumSize>
+				<MinimumSize>370,45</MinimumSize>
 				<SizePolicy>me,f</SizePolicy>
 				<Layout>horizontal</Layout>				
 				<Children>
@@ -388,15 +388,7 @@
 					</StatusLight>
 					
 					</Children>
-					</WidgetGroup>
-					
-					<WidgetGroup><!-- Design only: For creating an vertical separator line -->
-					<ObjectName>VerticalLineDarker50</ObjectName>
-					<MinimumSize>1,35</MinimumSize>
-					<SizePolicy>f,me</SizePolicy>
-					<Layout>horizontal</Layout>				
-					<Children></Children>
-					</WidgetGroup>				
+					</WidgetGroup>		
 
 
 			</Children>

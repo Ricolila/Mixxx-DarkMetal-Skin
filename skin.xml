@@ -496,7 +496,7 @@
 	
 	<!-- WIDGETGROUP ROW: Library + Preview Deck + Search Text Box + Tree view (...) -->
 	<Template src="skin:templates/library/start.xml"></Template>	
-	
+		
 	<!-- ENDS - ALL THE LAYOUT: -->
 	</Children>
 
