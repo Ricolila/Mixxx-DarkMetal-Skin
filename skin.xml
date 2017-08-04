@@ -34,13 +34,13 @@
 	- All skin files are designed to be "human readable".
 	- EVERYTHING is divided by ROWS (racks) for simplicity (instead a long hierarchy of templates after templates after templates...).
 	- For example, if we want to fix something on the "deck 1", EVERYTHING related (except graphics, of course) is in that row´s directory!
-	  So, in the above case, the path would be: "DarkMetal\templates\decksmixer_12".
+	  So, in the above case, the path would be: "DarkMetal\templates\bigdecks".
 	- This way we can search and update things very fast and easy, and without needed to open a bunch of files!
 
 	##################################################################################################################
 
 	Mixxx: (All the lattest releases)
-	http://downloads.mixxx.org/builds/master/release/
+	http://downloads.mixxx.org/builds/master/release
 	
 	Mixxx skin change log: (Important to read)
 	https://www.mixxx.org/wiki/doku.php/skin_system_changelog
@@ -55,8 +55,8 @@
 	https://qt-project.org/doc/qt-4.8/stylesheet.html
 	
 	To know...	
-	To reset the skin (and all the other Mixxx) settings to its defaults, in WINDOWS7, delete all contents in this "Mixxx" folder:
-	"C:\Users\<UserName>\AppData\Local\Mixxx"
+	To reset the skin (and all the other Mixxx) settings to its defaults, in WINDOWS7,
+	delete all contents in this "Mixxx" folder: "C:\Users\<UserName>\AppData\Local\Mixxx"
 	
 	ToolTips list at:
 	https://github.com/mixxxdj/mixxx/blob/master/src/skin/tooltips.cpp
@@ -65,9 +65,9 @@
 	-->
 
 	<manifest>
-	<title>Dark Metal V.2.9.4</title>
+	<title>Dark Metal v.2.9.4</title>
 	<author>Jorge Rosa - jorge.bigarte@gmail.com</author>
-	<version>V.2.9.4</version>
+	<version>2.9.4</version>
 	<description>Dark Metal - Color Schemes - SVG - Resizable</description>
 	<language>en</language>
 	<license>Creative Commons - Attribution 3.0 Unported</license>

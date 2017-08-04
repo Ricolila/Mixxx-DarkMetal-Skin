@@ -150,6 +150,9 @@
 	border:0px solid #000000; margin:0; padding:0;
 	background:url(skin:graphics/background_mixer.svg) no-repeat;
 	}	
+	#BeatSyncDisplay {
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#cdcdcd; text-align:center; padding-right:1px; 
+	}
 	#PitchRateDisplay {
 	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#cdcdcd; text-align:center; padding-right:1px; 
 	}
@@ -371,7 +374,7 @@
 	/* ##################################################################################################################### */
 
 	/* Main Window (Doesnt work by now) */
-	QWindow { border:1px solid #3c3c3c; background-color:#000000; background:#000000; color:#d5d5d5; }
+	QWindow { border:1px solid #3c3c3c; background-color:#000000; background:#000000; color:#d5d5d5; outline:0px; }
 	
 	/* Tips */
 	QToolTip { color:#d5d5d5; border:1px solid #808080; background-color:transparent; }	
@@ -455,11 +458,11 @@
 	#SplitterHorizontal::handle:vertical { height:4px; }
 	
 	/* QSplitter:Between Deck + Mixer + Deck ( QSplitter::handle {...} ) */
-	#SplittersBigs { min-width:5px; min-height:5px; margin:0px; padding:0px; background:none; }
+	#SplittersBigs { min-width:6px; min-height:6px; margin:0px; padding:0px; background:none; }
 	#SplittersBigs::handle { border-image:url(skin:graphics/splitter_long1.svg) 0 0 0 0 stretch stretch; }
 	#SplittersBigs::handle:pressed { border-image:url(skin:graphics/splitter_long2.svg) 0 0 0 0 stretch stretch; }
-	#SplittersBigs::handle:horizontal { width:5px; }
-	#SplittersBigs::handle:vertical { height:5px; }
+	#SplittersBigs::handle:horizontal { width:6px; }
+	#SplittersBigs::handle:vertical { height:6px; }
 				
 	/* Extra declaration for QRadionButton otherwise it shows up with wrong colors in Linux with Gnome */
 	QLabel, QRadioButton { font:10px/12px; background:transparent; color:#e3e3e3; }		
@@ -558,9 +561,9 @@
 	selection-background-color:#d2d2d2;	selection-color:#0f0f0f;
 	}
 	QSpinBox::up-arrow { image:url(skin:graphics/library_arrow_up.svg); }
-	QSpinBox::up-arrow:on { image:url(skin:graphics/library_arrow_up.svg) }
+	QSpinBox::up-arrow:on { image:url(skin:graphics/library_arrow_up.svg); }
 	QSpinBox::down-arrow { image:url(skin:graphics/library_arrow_down.svg); }
-	QSpinBox::down-arrow:on { image:url(skin:graphics/library_arrow_down.svg) }
+	QSpinBox::down-arrow:on { image:url(skin:graphics/library_arrow_down.svg); }
 	/* QSpinBox::hover { border-color:#232323; } */
 	/* QSpinBox::focus { border-color:#888888; color:#bbbbbb; } */
 	

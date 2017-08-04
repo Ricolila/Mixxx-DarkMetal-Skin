@@ -40,6 +40,36 @@
 		</Label>
 		</Children>			
 		</WidgetGroup>	
+	
+		<!--
+		**********************************************
+		Texts - Beat Sync
+		**********************************************
+		-->
+		
+		<NumberBpm>
+		<ObjectName>BeatSyncDisplay</ObjectName>		
+		<Pos>19,23</Pos>
+		<Size>40f,14</Size>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>1</NumberOfDigits>
+		<Channel><Variable name="audiochannel_a"/></Channel>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],visual_bpm</ConfigKey>
+		</Connection>
+		</NumberBpm>
+
+		<NumberBpm>
+		<ObjectName>BeatSyncDisplay</ObjectName>		
+		<Pos>406,23</Pos>
+		<Size>40f,14</Size>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>1</NumberOfDigits>
+		<Channel><Variable name="audiochannel_b"/></Channel>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],visual_bpm</ConfigKey>
+		</Connection>
+		</NumberBpm>
 		
 		<!--
 		**********************************************
@@ -50,7 +80,7 @@
 		<NumberRate>
 		<ObjectName>PitchRateDisplay</ObjectName>
 		<Channel><Variable name="audiochannel_a"/></Channel>
-		<Pos>19,26</Pos>
+		<Pos>19,46</Pos>
 		<Size>40f,14</Size>
 		<Alignment>center</Alignment>
 		<NumberOfDigits>2</NumberOfDigits>
@@ -59,7 +89,7 @@
 		<NumberRate>
 		<ObjectName>PitchRateDisplay</ObjectName>
 		<Channel><Variable name="audiochannel_b"/></Channel>
-		<Pos>406,26</Pos>
+		<Pos>406,46</Pos>
 		<Size>40f,14</Size>
 		<Alignment>center</Alignment>
 		<NumberOfDigits>2</NumberOfDigits>
@@ -75,7 +105,7 @@
 		<Key>
 		<ObjectName>KeyNumberDisplay</ObjectName>
 		<Channel><Variable name="audiochannel_a"/></Channel>
-		<Pos>19,49</Pos>
+		<Pos>19,69</Pos>
 		<Size>40f,14</Size>
 		<Alignment>center</Alignment>
 		<Connection>
@@ -86,7 +116,7 @@
 		<Key>
 		<ObjectName>KeyNumberDisplay</ObjectName>
 		<Channel><Variable name="audiochannel_b"/></Channel>
-		<Pos>406,49</Pos>
+		<Pos>406,69</Pos>
 		<Size>40f,14</Size>
 		<Alignment>center</Alignment>
 		<Connection>
@@ -99,19 +129,38 @@
 		Buttons - Sync selectors:
 		**********************************************
 		-->
-		
+
 		<PushButton> <!-- Left -->
-		<Pos>2,24</Pos>
+		<Pos>2,22</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small1.svg</Unpressed>
 		</State>
 		<State>
 		<Number>1</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small_pressed.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small1_pressed.svg</Unpressed>
+		</State>							
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],beatsync</ConfigKey>
+		<ButtonState>LeftButton</ButtonState>
+		</Connection>
+		</PushButton>
+		
+		<PushButton> <!-- Left -->
+		<Pos>2,45</Pos>
+		<NumberStates>2</NumberStates>
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_sync_small2_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small2.svg</Unpressed>
+		</State>
+		<State>
+		<Number>1</Number>
+		<Pressed>skin:graphics/btn_sync_small2_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small2_pressed.svg</Unpressed>
 		</State>							
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],sync_enabled</ConfigKey>
@@ -124,17 +173,17 @@
 		</PushButton>		
 		
 		<PushButton> <!-- Left -->
-		<Pos>2,47</Pos>
+		<Pos>2,68</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small3_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small3.svg</Unpressed>
 		</State>
 		<State>
 		<Number>1</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small_pressed.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small3_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small3_pressed.svg</Unpressed>
 		</State>							
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],sync_key</ConfigKey>
@@ -146,19 +195,38 @@
 		</Connection>
 		</PushButton>		
 
-		
+
 		<PushButton> <!-- Right -->
-		<Pos>388,24</Pos>
+		<Pos>388,22</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small1.svg</Unpressed>
 		</State>
 		<State>
 		<Number>1</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small_pressed.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small1_pressed.svg</Unpressed>
+		</State>							
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],beatsync</ConfigKey>
+		<ButtonState>LeftButton</ButtonState>
+		</Connection>
+		</PushButton>
+		
+		<PushButton> <!-- Right -->
+		<Pos>388,45</Pos>
+		<NumberStates>2</NumberStates>
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_sync_small2_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small2.svg</Unpressed>
+		</State>
+		<State>
+		<Number>1</Number>
+		<Pressed>skin:graphics/btn_sync_small2_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small2_pressed.svg</Unpressed>
 		</State>							
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],sync_enabled</ConfigKey>
@@ -171,17 +239,17 @@
 		</PushButton>		
 		
 		<PushButton> <!-- Right -->
-		<Pos>388,47</Pos>
+		<Pos>388,68</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small3_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small3.svg</Unpressed>
 		</State>
 		<State>
 		<Number>1</Number>
-		<Pressed>skin:graphics/btn_sync_small_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small_pressed.svg</Unpressed>
+		<Pressed>skin:graphics/btn_sync_small3_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_sync_small3_pressed.svg</Unpressed>
 		</State>							
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],sync_key</ConfigKey>
@@ -204,7 +272,7 @@
 		<SliderComposed>	
 		<Handle>skin:graphics/knob_pitch.svg</Handle>
 		<Slider>skin:graphics/slider_pitch.svg</Slider>
-		<Pos>13,81</Pos>
+		<Pos>13,107</Pos>
 		<Horizontal>false</Horizontal>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],rate</ConfigKey>
@@ -215,7 +283,7 @@
 		<SliderComposed>	
 		<Handle>skin:graphics/knob_pitch.svg</Handle>
 		<Slider>skin:graphics/slider_pitch.svg</Slider>
-		<Pos>399,81</Pos>
+		<Pos>399,107</Pos>
 		<Horizontal>false</Horizontal>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],rate</ConfigKey>

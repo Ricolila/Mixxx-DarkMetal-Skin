@@ -36,25 +36,6 @@
 						<Channel><Variable name="audiochannel"/></Channel>
 					</TrackProperty>
 				
-					<!-- TAP - widget group and put the bpm pushbutton on top of the display. -->
-                    <WidgetGroup>
-                    <ObjectName>BpmContainer</ObjectName>
-					<MinimumSize>30,23</MinimumSize>
-					<SizePolicy>me,f</SizePolicy>
-					<Layout>horizontal</Layout>
-                    <Children>
-					
-					<NumberBpm>
-					<ObjectName>TrackBPMDeck<Variable name="position"/></ObjectName>
-					<MinimumSize>10,23</MinimumSize>
-					<SizePolicy>me,f</SizePolicy>
-					<Alignment>right</Alignment>
-					<Channel><Variable name="audiochannel"/></Channel>
-					<NumberOfDigits>1</NumberOfDigits>
-					<Connection>
-					<ConfigKey>[Channel<Variable name="audiochannel"/>],visual_bpm</ConfigKey>
-					</Connection>
-					</NumberBpm>
 				
 					<PushButton>
                     <TooltipId>bpm_tap_visual_bpm</TooltipId>
@@ -78,11 +59,7 @@
                     <ConfigKey>[Channel<Variable name="audiochannel" />],bpm_tap</ConfigKey>
                     <EmitOnPressAndRelease>true</EmitOnPressAndRelease>
                     </Connection>
-                    </PushButton>
-					
-					</Children>
-					</WidgetGroup><!-- Ends: TAP -->
-					
+                    </PushButton>				
 
 			</Children>
 			</WidgetGroup>
