@@ -1,0 +1,60 @@
+<!DOCTYPE template>
+
+<Template>
+				
+		<WidgetGroup>
+		<ObjectName>Strobe</ObjectName>
+		<MinimumSize>215,45</MinimumSize>
+		<MaximumSize>215,45</MaximumSize>
+		<SizePolicy>f,f</SizePolicy>
+		<Children>
+
+		<!--
+		**********************************************
+		Visual - Volume level display
+		https://www.mixxx.org/wiki/doku.php/creating_skins
+		**********************************************
+		-->
+						
+		<VuMeter>
+			<PathVu>skin:graphics/strobe_display.svg</PathVu>
+			<PathBack>skin:graphics/strobe_display.svg</PathBack> <!-- just needed to do calculations -->
+			<Pos>25,0</Pos>
+			<Horizontal>false</Horizontal>
+			<PeakHoldSize>40</PeakHoldSize>
+			<PeakHoldTime>1</PeakHoldTime>
+			<PeakFallTime>1</PeakFallTime>
+			<PeakFallStep>40</PeakFallStep>
+			<Label>
+			<Pos>10,10</Pos>
+			<Size>10,10</Size>
+			  <Text>VU: %1</Text>
+			 </Label>
+			<Connection>
+			<ConfigKey>[Channel<Variable name="audiochannel"/>],VuMeter</ConfigKey>
+			</Connection>
+		</VuMeter>
+		
+		<!--
+		**********************************************
+		Text - Channel Number
+		**********************************************
+		-->
+		
+		<!--
+		<Label>
+			<ObjectName>StrobeLabel</ObjectName>
+			<Pos>100,10</Pos>
+			<Size>10,10</Size>
+			<Text>STROBE <Variable name="audiochannel"/></Text>
+		</Label>
+		-->	
+
+		</Children>
+		<Connection>
+		<ConfigKey>[StrobesModule<Variable name="audiochannel"/>],show</ConfigKey>
+		<BindProperty>visible</BindProperty>
+		</Connection>		
+		</WidgetGroup>
+	
+</Template>
