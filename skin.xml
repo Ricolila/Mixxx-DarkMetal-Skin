@@ -482,7 +482,7 @@
     <Layout>vertical</Layout>
     <Children>
 	<!-- WIDGETGROUP ROW: Strobes (Under Construction)-->
-    <!-- <Template src="skin:templates/strobes/start.xml"></Template> -->
+    <Template src="skin:templates/strobes/start.xml"></Template>
 	<!-- WIDGETGROUP ROW: Microphones -->
     <Template src="skin:templates/microphones/start.xml"></Template>
 	<!-- WIDGETGROUP ROW: Big Decks (The variable "spinny" could be: "spinny_bobine.svg", "spinny_cd.svg" or "spinny_vinyl.svg") -->

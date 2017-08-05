@@ -43,7 +43,6 @@
 		**********************************************
 		-->	
 		
-		<!-- 
 		<PushButton>
 		<NumberStates>2</NumberStates>
 		<State>
@@ -68,7 +67,6 @@
 		<Layout>horizontal</Layout>				
 		<Children></Children>
 		</WidgetGroup>
-		-->
 		
 		<!--
 		**********************************************

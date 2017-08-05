@@ -85,7 +85,7 @@
 	#Strobes {
 	qproperty-layoutAlignment:'AlignCenter | AlignTop';
 	background-color:#000000; border:0px solid #000000; margin:0; padding:0px;
-	background:url(skin:graphics/background_toolbar4.svg) repeat;
+	background:url(skin:graphics/background_toolbar5.svg) repeat;
 	}
 	#Strobe {
 	background:url(skin:graphics/background_strobe.svg) no-repeat;

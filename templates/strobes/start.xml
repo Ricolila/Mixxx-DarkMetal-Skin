@@ -4,7 +4,6 @@
 
 	<WidgetGroup>
 	<ObjectName>StrobesRack</ObjectName>	
-	<!-- <MinimumSize>-1,75</MinimumSize> -->
 	<MinimumSize>0,0</MinimumSize><!-- 0 == Forces to redraw the full row height, after we show/hide a module -->
 	<SizePolicy>me,f</SizePolicy>
 	<Layout>vertical</Layout> 
@@ -40,7 +39,6 @@
 	<!-- WIDGETGROUP: Strobes Full Rack -->	
 	<WidgetGroup>
 	<ObjectName>Strobes</ObjectName>
-	<!-- <MinimumSize>1,45</MinimumSize> -->
 	<MinimumSize>1,-1</MinimumSize><!-- -1f == Hides the row, if no module is visible -->
 	<SizePolicy>me,f</SizePolicy>
 	<Layout>horizontal</Layout>
