@@ -25,10 +25,10 @@
 							-->
 							
 							<Label>
-							<ObjectName>SamplerLabel</ObjectName>
-							<Pos>96,35</Pos>
-							<Size>10,10</Size>
-							<Text>SAMPLER <Variable name="samplernum"/></Text>
+								<ObjectName>SamplerLabel</ObjectName>
+								<Pos>96,35</Pos>
+								<Size>10,10</Size>
+								<Text>SAMPLER <Variable name="samplernum"/></Text>
 							</Label>				
 					
 							<!--
@@ -38,11 +38,11 @@
 							-->
 							
 							<Text>								
-							<ObjectName>SamplersTexts</ObjectName>
-							<Group>[Sampler<Variable name="samplernum"/>]</Group>
-							<Pos>8,3</Pos>
-							<Size>160f,21</Size>
-							<Elide>right</Elide> <!-- Adds "..." -->
+								<ObjectName>SamplersTexts</ObjectName>
+								<Group>[Sampler<Variable name="samplernum"/>]</Group>
+								<Pos>8,3</Pos>
+								<Size>160f,21</Size>
+								<Elide>right</Elide> <!-- Adds "..." -->
 							</Text>
 
 							<!--
@@ -52,15 +52,15 @@
 							-->
 							
 							<NumberBpm>								
-							<ObjectName>SamplersTexts</ObjectName>
-							<Group>[Sampler<Variable name="samplernum"/>]</Group>
-							<Pos>158,3</Pos>
-							<Size>55,21</Size>
-							<Alignment>right</Alignment>
-							<NumberOfDigits>1</NumberOfDigits>
-							<Connection>
-							<ConfigKey>[Sampler<Variable name="samplernum"/>],visual_bpm</ConfigKey>
-							</Connection>
+								<ObjectName>SamplersTexts</ObjectName>
+								<Group>[Sampler<Variable name="samplernum"/>]</Group>
+								<Pos>158,3</Pos>
+								<Size>55,21</Size>
+								<Alignment>right</Alignment>
+								<NumberOfDigits>1</NumberOfDigits>
+								<Connection>
+								<ConfigKey>[Sampler<Variable name="samplernum"/>],visual_bpm</ConfigKey>
+								</Connection>
 							</NumberBpm>
 
 							<!--
@@ -70,17 +70,17 @@
 							-->
 
 							<PushButton>
-							<Pos>218,5</Pos>
-							<NumberStates>1</NumberStates>
-							<State>
-							<Number>0</Number>
-							<Pressed>skin:graphics/btn_tap3_pressed.svg</Pressed>
-							<Unpressed>skin:graphics/btn_tap3.svg</Unpressed>
-							</State>							
-							<Connection>
-							<ConfigKey>[Sampler<Variable name="samplernum"/>],bpm_tap</ConfigKey>
-							<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
-							</Connection>
+								<NumberStates>1</NumberStates>
+								<State>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_tap3_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_tap3.svg</Unpressed>
+								</State>
+								<Pos>218,5</Pos>
+								<Connection>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],bpm_tap</ConfigKey>
+									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+								</Connection>
 							</PushButton>
 
 							<!--
@@ -186,11 +186,11 @@
 							-->
 							
 							<StatusLight>
-							<Pos>267,4</Pos>
 								<PathStatusLight>skin:graphics/volume_clipping_sampler_pressed.svg</PathStatusLight>
-								<PathBack>skin:graphics/volume_clipping_sampler.svg</PathBack>								
+								<PathBack>skin:graphics/volume_clipping_sampler.svg</PathBack>
+								<Pos>267,4</Pos>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],PeakIndicator</ConfigKey>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],PeakIndicator</ConfigKey>
 								</Connection>
 							</StatusLight>
 
@@ -201,16 +201,16 @@
 							-->
 							
 							<VuMeter>
-							<Pos>267,18</Pos>
 								<PathVu>skin:graphics/volume_display_sampler_pressed.svg</PathVu>
-								<PathBack>skin:graphics/volume_display_sampler.svg</PathBack>								
+								<PathBack>skin:graphics/volume_display_sampler.svg</PathBack>
+								<Pos>267,18</Pos>
 								<Horizontal>false</Horizontal>
 								<PeakHoldSize>5</PeakHoldSize>
 								<PeakHoldTime>600</PeakHoldTime>
 								<PeakFallTime>100</PeakFallTime>
 								<PeakFallStep>1</PeakFallStep>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],VuMeter</ConfigKey>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],VuMeter</ConfigKey>
 								</Connection>
 							</VuMeter>
 
@@ -221,13 +221,13 @@
 							-->
 							
 							<SliderComposed>
-							<Pos>275,3</Pos>
 								<Handle>skin:graphics/knob_pitch_sampler.svg</Handle>
-								<Slider>skin:graphics/slider_pitch_sampler.svg</Slider>								
+								<Slider>skin:graphics/slider_pitch_sampler.svg</Slider>
+								<Pos>275,3</Pos>
 								<Horizontal>false</Horizontal>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],rate</ConfigKey>
-								<EmitOnDownPress>false</EmitOnDownPress>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],rate</ConfigKey>
+									<EmitOnDownPress>false</EmitOnDownPress>
 								</Connection>
 							</SliderComposed>
 
@@ -242,25 +242,25 @@
 								<NumberStates>2</NumberStates>
 								<RightClickIsPushButton>true</RightClickIsPushButton>
 								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_play_sampler.svg</Pressed>
-								<Unpressed>skin:graphics/btn_play_sampler.svg</Unpressed>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_play_sampler.svg</Pressed>
+									<Unpressed>skin:graphics/btn_play_sampler.svg</Unpressed>
 								</State>
 								<State>
-								<Number>1</Number>
-								<Pressed>skin:graphics/btn_play_sampler_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_play_sampler_pressed.svg</Unpressed>
+									<Number>1</Number>
+									<Pressed>skin:graphics/btn_play_sampler_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_play_sampler_pressed.svg</Unpressed>
 								</State>								
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],play</ConfigKey>
-								<EmitOnDownPress>true</EmitOnDownPress>
-								<ButtonState>LeftButton</ButtonState>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],play</ConfigKey>
+									<EmitOnDownPress>true</EmitOnDownPress>
+									<ButtonState>LeftButton</ButtonState>
 								</Connection>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],start</ConfigKey>
-								<EmitOnDownPress>true</EmitOnDownPress>
-								<ButtonState>RightButton</ButtonState>
-								<ConnectValueToWidget>false</ConnectValueToWidget>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],start</ConfigKey>
+									<EmitOnDownPress>true</EmitOnDownPress>
+									<ButtonState>RightButton</ButtonState>
+									<ConnectValueToWidget>false</ConnectValueToWidget>
 								</Connection>
 							</PushButton>
 
@@ -274,50 +274,19 @@
 								<Pos>7,71</Pos>
 								<NumberStates>1</NumberStates>
 								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_sync_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_sync.svg</Unpressed>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_sync_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_sync.svg</Unpressed>
 								</State>								
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],beatsync</ConfigKey>
-								<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
-								<ButtonState>LeftButton</ButtonState>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],beatsync</ConfigKey>
+									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+									<ButtonState>LeftButton</ButtonState>
 								</Connection>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],beatsync_tempo</ConfigKey>
-								<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
-								<ButtonState>RightButton</ButtonState>
-								</Connection>
-							</PushButton>
-							
-							<!--
-							**********************************************
-							Button - Mix Orientation (Routing)
-							**********************************************
-							-->
-							
-							<PushButton>
-							<Pos>60,75</Pos>
-								<NumberStates>3</NumberStates>
-								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_orientation_left.svg</Pressed>
-								<Unpressed>skin:graphics/btn_orientation_left.svg</Unpressed>
-								</State>
-								<State>
-								<Number>1</Number>
-								<Pressed>skin:graphics/btn_orientation_master.svg</Pressed>
-								<Unpressed>skin:graphics/btn_orientation_master.svg</Unpressed>
-								</State>
-								<State>
-								<Number>2</Number>
-								<Pressed>skin:graphics/btn_orientation_right.svg</Pressed>
-								<Unpressed>skin:graphics/btn_orientation_right.svg</Unpressed>
-								</State>								
-								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],orientation</ConfigKey>
-								<EmitOnDownPress>true</EmitOnDownPress>
-								<ButtonState>LeftButton</ButtonState>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],beatsync_tempo</ConfigKey>
+									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+									<ButtonState>RightButton</ButtonState>
 								</Connection>
 							</PushButton>
 
@@ -328,7 +297,6 @@
 							-->
 							
 							<PushButton><!-- Label: 1 -->
-							<Pos>87,71</Pos>
 								<NumberStates>2</NumberStates>
 								<LeftClickIsPushButton>true</LeftClickIsPushButton>
 								<RightClickIsPushButton>true</RightClickIsPushButton>
@@ -341,7 +309,8 @@
 									<Number>1</Number>
 									<Pressed>skin:graphics/btn_hotcue_1_pressed.svg</Pressed>
 									<Unpressed>skin:graphics/btn_hotcue_1_pressed.svg</Unpressed>
-								</State>								
+								</State>
+								<Pos>87,71</Pos>
 								<Connection>
 									<ConfigKey>[Sampler<Variable name="samplernum"/>],hotcue_1_activate</ConfigKey>
 									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
@@ -361,7 +330,6 @@
 							</PushButton>
 							
 							<PushButton><!-- Label: 2 -->
-							<Pos>113,71</Pos>
 								<NumberStates>2</NumberStates>
 								<LeftClickIsPushButton>true</LeftClickIsPushButton>
 								<RightClickIsPushButton>true</RightClickIsPushButton>
@@ -374,7 +342,8 @@
 									<Number>1</Number>
 									<Pressed>skin:graphics/btn_hotcue_2_pressed.svg</Pressed>
 									<Unpressed>skin:graphics/btn_hotcue_2_pressed.svg</Unpressed>
-								</State>								
+								</State>
+								<Pos>113,71</Pos>
 								<Connection>
 									<ConfigKey>[Sampler<Variable name="samplernum"/>],hotcue_2_activate</ConfigKey>
 									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
@@ -394,7 +363,6 @@
 							</PushButton>
 							
 							<PushButton><!-- Label: 3 -->
-							<Pos>139,71</Pos>
 								<NumberStates>2</NumberStates>
 								<LeftClickIsPushButton>true</LeftClickIsPushButton>
 								<RightClickIsPushButton>true</RightClickIsPushButton>
@@ -407,7 +375,8 @@
 									<Number>1</Number>
 									<Pressed>skin:graphics/btn_hotcue_3_pressed.svg</Pressed>
 									<Unpressed>skin:graphics/btn_hotcue_3_pressed.svg</Unpressed>
-								</State>								
+								</State>
+								<Pos>139,71</Pos>
 								<Connection>
 									<ConfigKey>[Sampler<Variable name="samplernum"/>],hotcue_3_activate</ConfigKey>
 									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
@@ -427,7 +396,6 @@
 							</PushButton>
 							
 							<PushButton><!-- Label: 4 -->
-							<Pos>165,71</Pos>
 								<NumberStates>2</NumberStates>
 								<LeftClickIsPushButton>true</LeftClickIsPushButton>
 								<RightClickIsPushButton>true</RightClickIsPushButton>
@@ -440,7 +408,8 @@
 									<Number>1</Number>
 									<Pressed>skin:graphics/btn_hotcue_4_pressed.svg</Pressed>
 									<Unpressed>skin:graphics/btn_hotcue_4_pressed.svg</Unpressed>
-								</State>								
+								</State>
+								<Pos>165,71</Pos>
 								<Connection>
 									<ConfigKey>[Sampler<Variable name="samplernum"/>],hotcue_4_activate</ConfigKey>
 									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
@@ -466,20 +435,20 @@
 							-->
 							
 							<PushButton>
-							<Pos>191,71</Pos>
 								<NumberStates>2</NumberStates>
 								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_headphones_2_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_headphones_2.svg</Unpressed>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_headphones_2_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_headphones_2.svg</Unpressed>
 								</State>
 								<State>
-								<Number>1</Number>
-								<Pressed>skin:graphics/btn_headphones_2_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_headphones_2_pressed.svg</Unpressed>
-								</State>								
+									<Number>1</Number>
+									<Pressed>skin:graphics/btn_headphones_2_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_headphones_2_pressed.svg</Unpressed>
+								</State>
+								<Pos>191,71</Pos>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],pfl</ConfigKey>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],pfl</ConfigKey>
 								</Connection>
 							</PushButton>
 
@@ -490,18 +459,18 @@
 							-->
 							
 							<PushButton>
-							<Pos>242,24</Pos>
 								<NumberStates>1</NumberStates>
 								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_eject_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_eject.svg</Unpressed>
-								</State>								
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_eject_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_eject.svg</Unpressed>
+								</State>
+								<Pos>242,24</Pos>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],eject</ConfigKey>
-								<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
-								<ButtonState>LeftButton</ButtonState>
-								<ConnectValueToWidget>false</ConnectValueToWidget>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],eject</ConfigKey>
+									<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+									<ButtonState>LeftButton</ButtonState>
+									<ConnectValueToWidget>false</ConnectValueToWidget>
 								</Connection>
 							</PushButton>
 
@@ -512,23 +481,54 @@
 							-->
 							
 							<PushButton>
-							<Pos>220,24</Pos>
 								<NumberStates>2</NumberStates>
 								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_repeat_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_repeat.svg</Unpressed>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_repeat_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_repeat.svg</Unpressed>
 								</State>
 								<State>
-								<Number>1</Number>
-								<Pressed>skin:graphics/btn_repeat_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_repeat_pressed.svg</Unpressed>
-								</State>								
+									<Number>1</Number>
+									<Pressed>skin:graphics/btn_repeat_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_repeat_pressed.svg</Unpressed>
+								</State>
+								<Pos>220,24</Pos>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],repeat</ConfigKey>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],repeat</ConfigKey>
 								</Connection>
 							</PushButton>
+
+							<!--
+							**********************************************
+							Button - Mix Orientation (Routing)
+							**********************************************
+							-->
 							
+							<PushButton>
+								<NumberStates>3</NumberStates>
+								<State>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_orientation_left.svg</Pressed>
+									<Unpressed>skin:graphics/btn_orientation_left.svg</Unpressed>
+								</State>
+								<State>
+									<Number>1</Number>
+									<Pressed>skin:graphics/btn_orientation_master.svg</Pressed>
+									<Unpressed>skin:graphics/btn_orientation_master.svg</Unpressed>
+								</State>
+								<State>
+									<Number>2</Number>
+									<Pressed>skin:graphics/btn_orientation_right.svg</Pressed>
+									<Unpressed>skin:graphics/btn_orientation_right.svg</Unpressed>
+								</State>
+								<Pos>217,42</Pos>
+								<Connection>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],orientation</ConfigKey>
+									<EmitOnDownPress>true</EmitOnDownPress>
+									<ButtonState>LeftButton</ButtonState>
+								</Connection>
+							</PushButton>
+
 							<!--
 							**********************************************
 							Button - Key lock
@@ -536,46 +536,20 @@
 							-->
 							
 							<PushButton>
-							<Pos>220,42</Pos>
 								<NumberStates>2</NumberStates>
 								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_keylock_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_keylock.svg</Unpressed>
+									<Number>0</Number>
+									<Pressed>skin:graphics/btn_keylock_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_keylock.svg</Unpressed>
 								</State>
 								<State>
-								<Number>1</Number>
-								<Pressed>skin:graphics/btn_keylock_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_keylock_pressed.svg</Unpressed>
-								</State>								
-								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],keylock</ConfigKey>
-								</Connection>
-							</PushButton>
-							
-							<!--
-							**********************************************
-							Button - Quantize:
-							**********************************************
-							-->
-							
-							<PushButton>
-							<Pos>241,42</Pos>							
-								<NumberStates>2</NumberStates>
-								<State>
-								<Number>0</Number>
-								<Pressed>skin:graphics/btn_quantize.svg</Pressed>
-								<Unpressed>skin:graphics/btn_quantize.svg</Unpressed>
+									<Number>1</Number>
+									<Pressed>skin:graphics/btn_keylock_pressed.svg</Pressed>
+									<Unpressed>skin:graphics/btn_keylock_pressed.svg</Unpressed>
 								</State>
-								<State>
-								<Number>1</Number>
-								<Pressed>skin:graphics/btn_quantize_pressed.svg</Pressed>
-								<Unpressed>skin:graphics/btn_quantize_pressed.svg</Unpressed>
-								</State>						
+								<Pos>241,42</Pos>
 								<Connection>
-								<ConfigKey>[Sampler<Variable name="samplernum"/>],quantize</ConfigKey>
-								<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
-								<ButtonState>LeftButton</ButtonState>
+									<ConfigKey>[Sampler<Variable name="samplernum"/>],keylock</ConfigKey>
 								</Connection>
 							</PushButton>
 		

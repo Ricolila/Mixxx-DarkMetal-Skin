@@ -132,20 +132,20 @@
 
 		<PushButton> <!-- Left -->
 		<Pos>2,22</Pos>
-		<NumberStates>2</NumberStates>
+		<NumberStates>1</NumberStates>
 		<State>
 		<Number>0</Number>
 		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
 		<Unpressed>skin:graphics/btn_sync_small1.svg</Unpressed>
 		</State>
-		<State>
-		<Number>1</Number>
-		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small1_pressed.svg</Unpressed>
-		</State>							
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],beatsync</ConfigKey>
 		<ButtonState>LeftButton</ButtonState>
+		</Connection>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],beatsync_tempo</ConfigKey>
+		<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+		<ButtonState>RightButton</ButtonState>
 		</Connection>
 		</PushButton>
 		
@@ -198,20 +198,20 @@
 
 		<PushButton> <!-- Right -->
 		<Pos>388,22</Pos>
-		<NumberStates>2</NumberStates>
+		<NumberStates>1</NumberStates>
 		<State>
 		<Number>0</Number>
 		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
 		<Unpressed>skin:graphics/btn_sync_small1.svg</Unpressed>
 		</State>
-		<State>
-		<Number>1</Number>
-		<Pressed>skin:graphics/btn_sync_small1_pressed.svg</Pressed>
-		<Unpressed>skin:graphics/btn_sync_small1_pressed.svg</Unpressed>
-		</State>							
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],beatsync</ConfigKey>
 		<ButtonState>LeftButton</ButtonState>
+		</Connection>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],beatsync_tempo</ConfigKey>
+		<EmitOnPressAndRelease>true</EmitOnPressAndRelease>
+		<ButtonState>RightButton</ButtonState>
 		</Connection>
 		</PushButton>
 		
