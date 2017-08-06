@@ -53,7 +53,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],pregain</ConfigKey>
 		</Connection>
@@ -65,7 +65,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],pregain</ConfigKey>
 		</Connection>
@@ -83,7 +83,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>3</NumberOfDigits>
+		<NumberOfDigits>2</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],volume</ConfigKey>
 		</Connection>
@@ -95,7 +95,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>3</NumberOfDigits>
+		<NumberOfDigits>2</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],volume</ConfigKey>
 		</Connection>
@@ -143,7 +143,7 @@
 		<Pos>19,46</Pos>
 		<Size>40f,14</Size>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		</NumberRate>
 
 		<NumberRate>
@@ -152,7 +152,7 @@
 		<Pos>406,46</Pos>
 		<Size>40f,14</Size>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		</NumberRate>
 		
 		
