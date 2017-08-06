@@ -694,7 +694,7 @@
 		-->
 		
 		<PushButton><!-- Effects: apply -->
-		<Pos>73,67</Pos>
+		<Pos>73,63</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
@@ -714,7 +714,7 @@
 		</PushButton>
 		
 		<PushButton><!-- Effects: on/off -->
-		<Pos>93,67</Pos>
+		<Pos>93,63</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
@@ -799,7 +799,7 @@
 		-->		
 		
 		<PushButton><!-- Effects: apply -->
-		<Pos>358,67</Pos>
+		<Pos>358,63</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
@@ -819,7 +819,7 @@
 		</PushButton>
 		
 		<PushButton><!-- Effects: on/off -->
-		<Pos>308,67</Pos>
+		<Pos>308,63</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
 		<Number>0</Number>
