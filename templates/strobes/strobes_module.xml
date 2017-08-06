@@ -54,7 +54,7 @@
 		  </Connection>
 		</StatusLight>
 		-->		
-		
+
 		<PushButton>
 		<Pos>0,0</Pos>
 		<MinimumSize>200,45</MinimumSize>
@@ -67,15 +67,16 @@
 		</State>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel"/>],VuMeter</ConfigKey>
+		<!--
 		<Transform>
-		<Add>50.0</Add>
+		<Add>9.0</Add>
 		</Transform>
+		-->
 		<EmitOnDownPress>false</EmitOnDownPress>
 		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
 		<ButtonState></ButtonState>
 		</Connection>
 		</PushButton>
-		
 		
 		<!--
 		**********************************************

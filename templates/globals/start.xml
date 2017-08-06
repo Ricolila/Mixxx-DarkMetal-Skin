@@ -236,6 +236,7 @@
 		<ButtonState></ButtonState>
 		</Connection>
 		</KnobComposed>
+		<!--
 		<NumberDb>
 		<ObjectName>DBDisplay</ObjectName>
 		<Pos>0,20</Pos>
@@ -246,7 +247,19 @@
 		<Connection>
 		<ConfigKey>[Channel1],pregain</ConfigKey>
 		</Connection>
-		</NumberDb>		
+		</NumberDb>	
+		-->
+		<Number>
+		<ObjectName>VUNumberDisplay</ObjectName>
+		<Pos>0,20</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>3</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel1],VuMeter</ConfigKey>
+		</Connection>
+		</Number>		
 		<StatusLight>
 		<PathStatusLight>skin:graphics/background_analogvu_1_peak.svg</PathStatusLight>
 		<PathBack></PathBack>		
@@ -300,7 +313,8 @@
 		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
 		<ButtonState></ButtonState>
 		</Connection>
-		</KnobComposed>		
+		</KnobComposed>	
+		<!--		
 		<NumberDb>
 		<ObjectName>DBDisplay</ObjectName>
 		<Pos>0,20</Pos>
@@ -311,7 +325,19 @@
 		<Connection>
 		<ConfigKey>[Channel2],pregain</ConfigKey>
 		</Connection>
-		</NumberDb>		
+		</NumberDb>	
+		-->
+		<Number>
+		<ObjectName>VUNumberDisplay</ObjectName>
+		<Pos>0,20</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>3</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel2],VuMeter</ConfigKey>
+		</Connection>
+		</Number>		
 		<StatusLight>
 		<PathStatusLight>skin:graphics/background_analogvu_2_peak.svg</PathStatusLight>
 		<PathBack></PathBack>		
@@ -365,7 +391,8 @@
 		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
 		<ButtonState></ButtonState>
 		</Connection>
-		</KnobComposed>			
+		</KnobComposed>	
+		<!--		
 		<NumberDb>
 		<ObjectName>DBDisplay</ObjectName>
 		<Pos>0,20</Pos>
@@ -376,7 +403,19 @@
 		<Connection>
 		<ConfigKey>[Channel3],pregain</ConfigKey>
 		</Connection>
-		</NumberDb>		
+		</NumberDb>	
+		-->
+		<Number>
+		<ObjectName>VUNumberDisplay</ObjectName>
+		<Pos>0,20</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>3</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel3],VuMeter</ConfigKey>
+		</Connection>
+		</Number>			
 		<StatusLight>
 		<PathStatusLight>skin:graphics/background_analogvu_3_peak.svg</PathStatusLight>
 		<PathBack></PathBack>		
@@ -430,7 +469,8 @@
 		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
 		<ButtonState></ButtonState>
 		</Connection>
-		</KnobComposed>			
+		</KnobComposed>	
+		<!--
 		<NumberDb>
 		<ObjectName>DBDisplay</ObjectName>
 		<Pos>0,20</Pos>
@@ -442,6 +482,18 @@
 		<ConfigKey>[Channel4],pregain</ConfigKey>
 		</Connection>
 		</NumberDb>		
+		-->
+		<Number>
+		<ObjectName>VUNumberDisplay</ObjectName>
+		<Pos>0,20</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>3</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel4],VuMeter</ConfigKey>
+		</Connection>
+		</Number>	
 		<StatusLight>
 		<PathStatusLight>skin:graphics/background_analogvu_4_peak.svg</PathStatusLight>
 		<PathBack></PathBack>		

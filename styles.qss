@@ -175,6 +175,12 @@
 	#KeyNumberDisplay {
 	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#cdcdcd; text-align:center; padding-right:1px;
 	}
+	#DBNumberDisplay {
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a; text-align:center; padding-right:1px; 
+	}
+	#VolumeNumberDisplay {
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#9b9b9b; text-align:center; padding-right:1px; 
+	}
 	
 
 	#AnalogVUS {
@@ -196,8 +202,8 @@
 	border:0px solid #000000; margin:0; padding:0;
 	background:url(skin:graphics/background_analogvu_4.svg) no-repeat;
 	}
-	#DBDisplay {
-	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a; text-align:center; padding-right:1px; 
+	#VUNumberDisplay {
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#6a6a6a; text-align:center; padding-right:1px; 
 	}	
 	
 	

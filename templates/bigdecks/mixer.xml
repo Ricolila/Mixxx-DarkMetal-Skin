@@ -40,7 +40,67 @@
 		</Label>
 		</Children>			
 		</WidgetGroup>	
-	
+
+		<!--
+		**********************************************
+		Texts - Gains
+		**********************************************
+		-->
+		
+		<NumberDb>
+		<ObjectName>DBNumberDisplay</ObjectName>
+		<Pos>142,15</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>2</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],pregain</ConfigKey>
+		</Connection>
+		</NumberDb>	
+
+		<NumberDb>
+		<ObjectName>DBNumberDisplay</ObjectName>
+		<Pos>264,15</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>2</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],pregain</ConfigKey>
+		</Connection>
+		</NumberDb>	
+
+		<!--
+		**********************************************
+		Texts - Volumes
+		**********************************************
+		-->
+		
+		<Number>
+		<ObjectName>VolumeNumberDisplay</ObjectName>
+		<Pos>166,61</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>3</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],volume</ConfigKey>
+		</Connection>
+		</Number>	
+
+		<Number>
+		<ObjectName>VolumeNumberDisplay</ObjectName>
+		<Pos>241,61</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>3</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],volume</ConfigKey>
+		</Connection>
+		</Number>	
+		
 		<!--
 		**********************************************
 		Texts - Beat Sync
