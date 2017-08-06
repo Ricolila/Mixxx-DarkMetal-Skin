@@ -97,11 +97,11 @@
        xlink:href="#linearGradient5282"
        id="radialGradient4196-1"
        cx="767.797"
-       cy="229.94658"
+       cy="229.94606"
        fx="767.797"
-       fy="229.94656"
+       fy="229.94604"
        r="32.034878"
-       gradientTransform="matrix(-5.7924866e-5,0.75393472,-121.60965,-0.015715,28063.832,454.60711)"
+       gradientTransform="matrix(-5.7924866e-5,0.97065448,-121.60965,-0.01546047,28063.832,288.1518)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient5282"
@@ -109,7 +109,7 @@
       <stop
          id="stop5284"
          offset="0"
-         style="stop-color:#323232;stop-opacity:1" />
+         style="stop-color:#2d2d2d;stop-opacity:1" />
       <stop
          id="stop5286"
          offset="1"
@@ -157,8 +157,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.0330624"
-     inkscape:cx="57.417789"
-     inkscape:cy="2.2920939"
+     inkscape:cx="66.467984"
+     inkscape:cy="-3.9066696"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
