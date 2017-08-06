@@ -51,9 +51,10 @@
 		<ObjectName>DBNumberDisplay</ObjectName>
 		<Pos>142,15</Pos>
 		<Size>43f,22f</Size>
-		<Text>%1</Text>
-		<Alignment>center</Alignment>
+		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>1</NumberOfDigits>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],pregain</ConfigKey>
 		</Connection>
@@ -63,9 +64,10 @@
 		<ObjectName>DBNumberDisplay</ObjectName>
 		<Pos>264,15</Pos>
 		<Size>43f,22f</Size>
-		<Text>%1</Text>
-		<Alignment>center</Alignment>
+		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>1</NumberOfDigits>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],pregain</ConfigKey>
 		</Connection>
@@ -81,9 +83,10 @@
 		<ObjectName>VolumeNumberDisplay</ObjectName>
 		<Pos>166,61</Pos>
 		<Size>43f,22f</Size>
-		<Text>%1</Text>
-		<Alignment>center</Alignment>
+		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>2</NumberOfDigits>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],volume</ConfigKey>
 		</Connection>
@@ -93,9 +96,10 @@
 		<ObjectName>VolumeNumberDisplay</ObjectName>
 		<Pos>241,61</Pos>
 		<Size>43f,22f</Size>
-		<Text>%1</Text>
-		<Alignment>center</Alignment>
+		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>2</NumberOfDigits>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],volume</ConfigKey>
 		</Connection>
