@@ -187,8 +187,8 @@
 	<attribute persist="true" config_key="[StrobesMaximize],show">1</attribute>
 	<attribute persist="true" config_key="[StrobesModule1],show">1</attribute>
 	<attribute persist="true" config_key="[StrobesModule2],show">1</attribute>
-	<attribute persist="true" config_key="[StrobesModule3],show">1</attribute>
-	<attribute persist="true" config_key="[StrobesModule4],show">1</attribute>
+	<attribute persist="true" config_key="[StrobesModule3],show">0</attribute>
+	<attribute persist="true" config_key="[StrobesModule4],show">0</attribute>
 	
 	</attributes>
 	</manifest>
