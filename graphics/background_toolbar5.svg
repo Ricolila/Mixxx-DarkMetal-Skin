@@ -21,6 +21,18 @@
      id="defs4">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient4634">
+      <stop
+         style="stop-color:#464646;stop-opacity:1"
+         offset="0"
+         id="stop4630" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4632" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient857">
       <stop
          style="stop-color:#646464;stop-opacity:1"
@@ -114,6 +126,28 @@
        r="82.929909"
        gradientTransform="matrix(34.640596,0,0,0.02472876,-2606.2042,-967.97815)"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient857"
+       id="radialGradient859-6"
+       cx="78.12014"
+       cy="-956.05841"
+       fx="78.12014"
+       fy="-956.05841"
+       r="82.929909"
+       gradientTransform="matrix(2.2909398,1.9298469e-8,-9.1414899e-8,0.02546288,-114.41104,-981.66448)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4634"
+       id="radialGradient859-7-6"
+       cx="78.12014"
+       cy="-956.05841"
+       fx="78.12014"
+       fy="-956.05841"
+       r="82.929909"
+       gradientTransform="matrix(34.640596,0,0,0.02472876,-2606.2042,-967.97815)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -122,9 +156,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.7036115"
-     inkscape:cx="111.6285"
-     inkscape:cy="-9.6928915"
+     inkscape:zoom="4.0330624"
+     inkscape:cx="57.417789"
+     inkscape:cy="2.2920939"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -248,15 +282,16 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
     </g>
     <g
        id="g4202"
-       transform="matrix(1,0,0,-1,0.07592855,2021.4825)">
-      <rect
+       transform="matrix(0.98050151,0,0,-1,2.0242973,2021.4825)">
+      <path
+         transform="scale(1,-1)"
          style="opacity:1;fill:url(#radialGradient859);fill-opacity:1;stroke:none;stroke-width:0.49712804;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -8.1653376,-993.29913 H 208.01348 v 3.35765 H -8.1653376 Z"
          id="rect843"
-         width="216.17882"
-         height="3.3576548"
-         x="-8.1653376"
-         y="-993.29913"
-         transform="scale(1,-1)" />
+         inkscape:connector-curvature="0" />
     </g>
+    <g
+       id="g4202-6"
+       transform="matrix(0.13949716,0,0,-2.8798211,90.994391,3926.9867)" />
   </g>
 </svg>
