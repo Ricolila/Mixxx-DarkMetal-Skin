@@ -266,7 +266,27 @@
 		<Connection>
 		<ConfigKey>[Channel1],PeakIndicator</ConfigKey>
 		</Connection>
-		</StatusLight>
+		</StatusLight>		
+		<PushButton>
+		<ObjectName>BeatIndicator</ObjectName>
+		<Pos>5,29</Pos>
+		<MinimumSize>5,5</MinimumSize>
+		<MaximumSize>5,5</MaximumSize>
+		<NumberStates>1</NumberStates>		
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_beat_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_beat_rounded.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[Channel1],beat_active</ConfigKey>
+		<ConnectValueToWidget>true</ConnectValueToWidget>
+		<ConnectValueFromWidget>false</ConnectValueFromWidget>
+		<EmitOnDownPress>false</EmitOnDownPress>
+		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
+		<ButtonState></ButtonState>
+		</Connection>		
+		</PushButton>		
 		<PushButton>
 		<Pos>1,39</Pos>
 		<NumberStates>2</NumberStates>
@@ -346,6 +366,26 @@
 		</Connection>
 		</StatusLight>
 		<PushButton>
+		<ObjectName>BeatIndicator</ObjectName>
+		<Pos>5,29</Pos>
+		<MinimumSize>5,5</MinimumSize>
+		<MaximumSize>5,5</MaximumSize>
+		<NumberStates>1</NumberStates>		
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_beat_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_beat_rounded.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[Channel2],beat_active</ConfigKey>
+		<ConnectValueToWidget>true</ConnectValueToWidget>
+		<ConnectValueFromWidget>false</ConnectValueFromWidget>
+		<EmitOnDownPress>false</EmitOnDownPress>
+		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
+		<ButtonState></ButtonState>
+		</Connection>		
+		</PushButton>
+		<PushButton>
 		<Pos>1,39</Pos>
 		<NumberStates>2</NumberStates>
 		<State>
@@ -361,7 +401,7 @@
 		<Connection>
 		<ConfigKey>[Channel2],mute</ConfigKey>
 		</Connection>
-		</PushButton>
+		</PushButton>		
 		</Children>
 		</WidgetGroup>
 		
@@ -423,6 +463,26 @@
 		<ConfigKey>[Channel3],PeakIndicator</ConfigKey>
 		</Connection>
 		</StatusLight>
+		<PushButton>
+		<ObjectName>BeatIndicator</ObjectName>
+		<Pos>5,29</Pos>
+		<MinimumSize>5,5</MinimumSize>
+		<MaximumSize>5,5</MaximumSize>
+		<NumberStates>1</NumberStates>		
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_beat_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_beat_rounded.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[Channel3],beat_active</ConfigKey>
+		<ConnectValueToWidget>true</ConnectValueToWidget>
+		<ConnectValueFromWidget>false</ConnectValueFromWidget>
+		<EmitOnDownPress>false</EmitOnDownPress>
+		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
+		<ButtonState></ButtonState>
+		</Connection>		
+		</PushButton>
 		<PushButton>
 		<Pos>1,39</Pos>
 		<NumberStates>2</NumberStates>
@@ -501,6 +561,26 @@
 		<ConfigKey>[Channel4],PeakIndicator</ConfigKey>
 		</Connection>
 		</StatusLight>
+		<PushButton>
+		<ObjectName>BeatIndicator</ObjectName>
+		<Pos>5,29</Pos>
+		<MinimumSize>5,5</MinimumSize>
+		<MaximumSize>5,5</MaximumSize>
+		<NumberStates>1</NumberStates>		
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_beat_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_beat_rounded.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[Channel4],beat_active</ConfigKey>
+		<ConnectValueToWidget>true</ConnectValueToWidget>
+		<ConnectValueFromWidget>false</ConnectValueFromWidget>
+		<EmitOnDownPress>false</EmitOnDownPress>
+		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
+		<ButtonState></ButtonState>
+		</Connection>		
+		</PushButton>
 		<PushButton>
 		<Pos>1,39</Pos>
 		<NumberStates>2</NumberStates>
