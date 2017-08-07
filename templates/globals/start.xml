@@ -243,7 +243,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel1],pregain</ConfigKey>
 		</Connection>
@@ -255,7 +255,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel1],VuMeter</ConfigKey>
 		</Connection>
@@ -321,7 +321,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel2],pregain</ConfigKey>
 		</Connection>
@@ -333,7 +333,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel2],VuMeter</ConfigKey>
 		</Connection>
@@ -399,7 +399,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel3],pregain</ConfigKey>
 		</Connection>
@@ -411,7 +411,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel3],VuMeter</ConfigKey>
 		</Connection>
@@ -477,7 +477,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel4],pregain</ConfigKey>
 		</Connection>
@@ -489,7 +489,7 @@
 		<Size>43f,22f</Size>
 		<Text>%1</Text>
 		<Alignment>center</Alignment>
-		<NumberOfDigits>2</NumberOfDigits>
+		<NumberOfDigits>1</NumberOfDigits>
 		<Connection>
 		<ConfigKey>[Channel4],VuMeter</ConfigKey>
 		</Connection>
