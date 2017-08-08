@@ -72,7 +72,7 @@
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/strobe_display_beat.svg</Pressed>
+		<Pressed>skin:graphics/strobe_display_beat<Variable name="strobetype"/>.svg</Pressed>
 		<Unpressed></Unpressed>
 		</State>
 		<Connection>
@@ -98,21 +98,24 @@
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
-		<Pressed>skin:graphics/strobe_display_vumeter.svg</Pressed>
+		<Pressed>skin:graphics/strobe_display_vumeter<Variable name="strobetype"/>.svg</Pressed>
 		<Unpressed></Unpressed>
 		</State>
+		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel"/>],VuMeter</ConfigKey>
+		<!-- <ConfigKey>[Channel<Variable name="audiochannel"/>],PeakIndicator</ConfigKey> -->
+		<Transform>
+		<Add>100.0</Add>
+		<IsEqual>100.0</IsEqual>
+		</Transform>
 		<ConnectValueToWidget>true</ConnectValueToWidget>
 		<ConnectValueFromWidget>false</ConnectValueFromWidget>
 		<EmitOnDownPress>false</EmitOnDownPress>
 		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
 		<ButtonState></ButtonState>
-		<Transform>
-		<Add>50.0</Add>
-		<IsEqual>50.0</IsEqual>
-		</Transform>
-		</Connection>		
+		</Connection>	
+		
 		</PushButton>
 		
 		

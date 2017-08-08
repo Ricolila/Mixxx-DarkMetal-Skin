@@ -366,12 +366,12 @@
 						<Layout>horizontal</Layout>
 						<Children>
 							<Spinny>								
-								<Channel><Variable name="audiochannel"/></Channel>								
-								<PathBackground>skin:graphics/background_spinny.svg</PathBackground>
-								<PathForeground>skin:graphics/<Variable name="spinny"/></PathForeground>
-								<PathGhost>skin:graphics/<Variable name="spinny"/></PathGhost>
-								<PathMask></PathMask>
-								<ShowCover>false</ShowCover>
+							<Channel><Variable name="audiochannel"/></Channel>								
+							<PathBackground>skin:graphics/background_spinny.svg</PathBackground>
+							<PathForeground>skin:graphics/spinny_<Variable name="spinnytype"/>.svg</PathForeground>
+							<PathGhost>skin:graphics/spinny_<Variable name="spinnytype"/>.svg</PathGhost>
+							<PathMask></PathMask>
+							<ShowCover>false</ShowCover>
 							</Spinny>
 						</Children>
 						<Connection>

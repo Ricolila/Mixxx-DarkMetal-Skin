@@ -481,12 +481,12 @@
 	<ObjectName>Hifi</ObjectName>
     <Layout>vertical</Layout>
     <Children>
-	<!-- ROW: Strobes (Under Construction)-->
-    <Template src="skin:templates/strobes/start.xml"></Template>
+	<!-- ROW: Strobes (The USER variable "strobetype" could be set to: "1", "2" or "3") -->
+    <Template src="skin:templates/strobes/start.xml"><SetVariable name="strobetype">1</SetVariable></Template>
 	<!-- ROW: Microphones -->
     <Template src="skin:templates/microphones/start.xml"></Template>
-	<!-- ROW: Big Decks (The variable "spinny" could be: "spinny_bobine.svg", "spinny_cd.svg" or "spinny_vinyl.svg") -->
-	<Template src="skin:templates/bigdecks/start.xml"><SetVariable name="spinny">spinny_bobine.svg</SetVariable></Template>
+	<!-- ROW: Big Decks (The USER variable "spinnytype" could be set to: "bobine", "cd" or "vinyl") -->
+	<Template src="skin:templates/bigdecks/start.xml"><SetVariable name="spinnytype">bobine</SetVariable></Template>
 	<!-- ROW: Mini Decks -->
     <Template src="skin:templates/minidecks/start.xml"></Template>
 	<!-- ROW: Auxiliaries -->
