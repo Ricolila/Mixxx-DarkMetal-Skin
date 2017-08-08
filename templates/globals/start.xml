@@ -269,9 +269,8 @@
 		</StatusLight>		
 		<PushButton>
 		<ObjectName>BeatIndicator</ObjectName>
-		<Pos>5,29</Pos>
-		<MinimumSize>5,5</MinimumSize>
-		<MaximumSize>5,5</MaximumSize>
+		<Pos>8,41</Pos>
+		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
@@ -367,9 +366,8 @@
 		</StatusLight>
 		<PushButton>
 		<ObjectName>BeatIndicator</ObjectName>
-		<Pos>5,29</Pos>
-		<MinimumSize>5,5</MinimumSize>
-		<MaximumSize>5,5</MaximumSize>
+		<Pos>8,41</Pos>
+		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
@@ -465,9 +463,8 @@
 		</StatusLight>
 		<PushButton>
 		<ObjectName>BeatIndicator</ObjectName>
-		<Pos>5,29</Pos>
-		<MinimumSize>5,5</MinimumSize>
-		<MaximumSize>5,5</MaximumSize>
+		<Pos>8,41</Pos>
+		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
@@ -563,9 +560,8 @@
 		</StatusLight>
 		<PushButton>
 		<ObjectName>BeatIndicator</ObjectName>
-		<Pos>5,29</Pos>
-		<MinimumSize>5,5</MinimumSize>
-		<MaximumSize>5,5</MaximumSize>
+		<Pos>8,41</Pos>
+		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>

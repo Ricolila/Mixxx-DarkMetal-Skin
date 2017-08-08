@@ -121,7 +121,26 @@
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],visual_bpm</ConfigKey>
 		</Connection>
-		</NumberBpm>
+		</NumberBpm>	
+
+		<PushButton>
+		<Pos>28,96</Pos>
+		<Size>8f,8f</Size>
+		<NumberStates>1</NumberStates>		
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_beat_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_beat_rounded.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],beat_active</ConfigKey>
+		<ConnectValueToWidget>true</ConnectValueToWidget>
+		<ConnectValueFromWidget>false</ConnectValueFromWidget>
+		<EmitOnDownPress>false</EmitOnDownPress>
+		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
+		<ButtonState></ButtonState>
+		</Connection>		
+		</PushButton>		
 
 		<NumberBpm>
 		<ObjectName>BeatSyncDisplay</ObjectName>		
@@ -134,6 +153,25 @@
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],visual_bpm</ConfigKey>
 		</Connection>
 		</NumberBpm>
+		
+		<PushButton>
+		<Pos>414,96</Pos>
+		<Size>8f,8f</Size>
+		<NumberStates>1</NumberStates>		
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_beat_rounded_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_beat_rounded.svg</Unpressed>
+		</State>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],beat_active</ConfigKey>
+		<ConnectValueToWidget>true</ConnectValueToWidget>
+		<ConnectValueFromWidget>false</ConnectValueFromWidget>
+		<EmitOnDownPress>false</EmitOnDownPress>
+		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
+		<ButtonState></ButtonState>
+		</Connection>		
+		</PushButton>
 		
 		<!--
 		**********************************************
