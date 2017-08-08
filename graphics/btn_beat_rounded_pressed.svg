@@ -23,7 +23,7 @@
        inkscape:collect="always"
        id="linearGradient846">
       <stop
-         style="stop-color:#794bbe;stop-opacity:1"
+         style="stop-color:#be87ff;stop-opacity:1"
          offset="0"
          id="stop842" />
       <stop
@@ -71,7 +71,7 @@
        fy="1040.2847"
        r="8.5454998"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.5488857,3.0631256e-8,-2.8829235e-8,3.3401066,70.61443,-2438.2998)" />
+       gradientTransform="matrix(4.2503826,-8.8670884e-8,8.1064904e-8,3.8857948,81.476598,-3005.9708)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -81,8 +81,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="45.335862"
-     inkscape:cx="-1.0234178"
-     inkscape:cy="4.3188043"
+     inkscape:cx="2.2741924"
+     inkscape:cy="4.0761708"
      inkscape:document-units="px"
      inkscape:current-layer="g4498"
      showgrid="false"
@@ -100,7 +100,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
