@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="5"
-   height="5"
-   viewBox="0 0 5 5"
+   width="8"
+   height="8"
+   viewBox="0 0 8 8"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.1 r15371"
@@ -64,7 +64,7 @@
        fy="1041.8982"
        r="9.5238771"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6448361,-2.3847414e-8,1.9662624e-8,1.3561971,25.6265,-370.65713)" />
+       gradientTransform="matrix(1.6176512,-5.7196501e-8,5.5705695e-8,1.5754877,31.030118,-605.13561)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -73,9 +73,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="64.114591"
-     inkscape:cx="4.922324"
-     inkscape:cy="3.4827426"
+     inkscape:zoom="45.335862"
+     inkscape:cx="1.5291499"
+     inkscape:cy="3.4071197"
      inkscape:document-units="px"
      inkscape:current-layer="g4496"
      showgrid="false"
@@ -101,28 +101,28 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1047.3622)">
+     transform="translate(0,-1044.3622)">
     <g
        id="g4496"
        transform="matrix(0.26492767,0,0,0.26492767,-0.1492767,773.56232)">
       <circle
-         r="8.8730001"
-         cy="1043.4893"
-         cx="10"
+         r="14.1968"
+         cy="1038.1654"
+         cx="15.661922"
          id="path823-2"
-         style="opacity:1;fill:#000000;fill-opacity:0.92156863;stroke:none;stroke-width:2.03174543;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.92156863;stroke:none;stroke-width:3.25079274;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
-         r="8.8730001"
-         cy="1042.3622"
-         cx="10"
+         r="14.1968"
+         cy="1036.3622"
+         cx="15.661922"
          id="path823"
-         style="opacity:1;fill:#5a5a5a;fill-opacity:1;stroke:none;stroke-width:2.03174543;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#969696;fill-opacity:1;stroke:none;stroke-width:3.25079274;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
-         cx="10"
-         cy="1042.3622"
-         r="8"
+         cx="15.661922"
+         cy="1036.3622"
+         r="12.8"
          id="path823-7"
-         style="opacity:1;fill:url(#radialGradient854);fill-opacity:1;stroke:none;stroke-width:1.83184528;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:url(#radialGradient854);fill-opacity:1;stroke:none;stroke-width:2.93095255;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
