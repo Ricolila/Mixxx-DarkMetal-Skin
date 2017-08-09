@@ -124,7 +124,7 @@
 		</NumberBpm>	
 
 		<PushButton>
-		<Pos>28,94</Pos>
+		<Pos>28,96</Pos>
 		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
@@ -155,7 +155,7 @@
 		</NumberBpm>
 		
 		<PushButton>
-		<Pos>414,94</Pos>
+		<Pos>414,96</Pos>
 		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
@@ -374,7 +374,7 @@
 		<SliderComposed>	
 		<Handle>skin:graphics/knob_pitch.svg</Handle>
 		<Slider>skin:graphics/slider_pitch.svg</Slider>
-		<Pos>13,107</Pos>
+		<Pos>13,113</Pos>
 		<Horizontal>false</Horizontal>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],rate</ConfigKey>
@@ -385,7 +385,7 @@
 		<SliderComposed>	
 		<Handle>skin:graphics/knob_pitch.svg</Handle>
 		<Slider>skin:graphics/slider_pitch.svg</Slider>
-		<Pos>399,107</Pos>
+		<Pos>399,113</Pos>
 		<Horizontal>false</Horizontal>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],rate</ConfigKey>
