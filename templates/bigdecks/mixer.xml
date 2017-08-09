@@ -124,7 +124,7 @@
 		</NumberBpm>	
 
 		<PushButton>
-		<Pos>28,96</Pos>
+		<Pos>28,94</Pos>
 		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
@@ -155,7 +155,7 @@
 		</NumberBpm>
 		
 		<PushButton>
-		<Pos>414,96</Pos>
+		<Pos>414,94</Pos>
 		<Size>8f,8f</Size>
 		<NumberStates>1</NumberStates>		
 		<State>
