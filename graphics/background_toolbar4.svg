@@ -99,11 +99,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.0330624"
-     inkscape:cx="109.58521"
-     inkscape:cy="31.277726"
+     inkscape:zoom="8.0661248"
+     inkscape:cx="68.770292"
+     inkscape:cy="17.244775"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4202"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -123,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Jorge Rosa</dc:title>
@@ -161,7 +161,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
          inkscape:connector-curvature="0"
          id="path4185-1"
          d="M -7.6864663,991.37836 H 207.53461"
-         style="fill:#cccccc;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#d2d2d2;fill-rule:evenodd;stroke:#5f5f5f;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1" />
     </g>
   </g>
 </svg>
