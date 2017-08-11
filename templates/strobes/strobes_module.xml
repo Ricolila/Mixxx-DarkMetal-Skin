@@ -141,14 +141,13 @@
 		**********************************************
 		-->
 		
-		<!--
 		<Label>
 		<ObjectName>StrobeLabel</ObjectName>
-		<Pos>100,10</Pos>
+		<Pos>45,16</Pos>
 		<Size>10,10</Size>
-		<Text>STROBE <Variable name="audiochannel"/></Text>
+		<Text><Variable name="audiochannel"/></Text>
 		</Label>
-		-->	
+
 
 		</Children>
 		<Connection>
