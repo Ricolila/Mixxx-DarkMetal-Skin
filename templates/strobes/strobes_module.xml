@@ -4,8 +4,8 @@
 				
 		<WidgetGroup>
 		<ObjectName>Strobe</ObjectName>
-		<MinimumSize>200,45</MinimumSize>
-		<MaximumSize>200,45</MaximumSize>
+		<MinimumSize>250,45</MinimumSize>
+		<MaximumSize>250,45</MaximumSize>
 		<SizePolicy>f,f</SizePolicy>
 		<Children>
 
@@ -18,8 +18,8 @@
 		<!--
 		<VuMeter>
 		<Pos>0,0</Pos>
-		<MinimumSize>200,45</MinimumSize>
-		<MaximumSize>200,45</MaximumSize>
+		<MinimumSize>250,45</MinimumSize>
+		<MaximumSize>250,45</MaximumSize>
 		<SizePolicy>f,f</SizePolicy>
 		<PathVu>skin:graphics/strobe_display.svg</PathVu>
 		<PathBack></PathBack>
@@ -37,8 +37,8 @@
 		<!--
 		<StatusLight>
 		<Pos>0,0</Pos>
-		<MinimumSize>200,45</MinimumSize>
-		<MaximumSize>200,45</MaximumSize>
+		<MinimumSize>250,45</MinimumSize>
+		<MaximumSize>250,45</MaximumSize>
 		<SizePolicy>f,f</SizePolicy>
 		<Path>skin:graphics/strobe_display.svg</Path>
 		<PathStatusLight>skin:graphics/strobe_display.svg</PathStatusLight>
@@ -67,8 +67,8 @@
 		
 		<PushButton>
 		<Pos>0,0</Pos>
-		<MinimumSize>200,45</MinimumSize>
-		<MaximumSize>200,45</MaximumSize>
+		<MinimumSize>250,45</MinimumSize>
+		<MaximumSize>250,45</MaximumSize>
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
@@ -93,15 +93,14 @@
 		
 		<PushButton>
 		<Pos>0,0</Pos>
-		<MinimumSize>200,45</MinimumSize>
-		<MaximumSize>200,45</MaximumSize>
+		<MinimumSize>250,45</MinimumSize>
+		<MaximumSize>250,45</MaximumSize>
 		<NumberStates>1</NumberStates>		
 		<State>
 		<Number>0</Number>
 		<Pressed>skin:graphics/strobe_display_vumeter<Variable name="strobetype"/>.svg</Pressed>
 		<Unpressed></Unpressed>
-		</State>
-		
+		</State>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel"/>],VuMeter</ConfigKey>
 		<!-- <ConfigKey>[Channel<Variable name="audiochannel"/>],PeakIndicator</ConfigKey> -->
@@ -114,9 +113,26 @@
 		<EmitOnDownPress>false</EmitOnDownPress>
 		<EmitOnPressAndRelease>false</EmitOnPressAndRelease>
 		<ButtonState></ButtonState>
-		</Connection>	
+		</Connection>		
+		</PushButton>		
 		
-		</PushButton>
+		
+		<!--
+		<NumberDb>
+		<ObjectName>VUNumberDisplay</ObjectName>
+		<Pos>0,0</Pos>
+		<Size>43f,22f</Size>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<NumberOfDigits>0</NumberOfDigits>
+		<Connection>
+		<ConfigKey>[Channel<Variable name="audiochannel"/>],VuMeter</ConfigKey>
+		<Transform>
+		<Invert/>
+		</Transform>
+		</Connection>
+		</NumberDb>		
+		-->
 		
 		
 		<!--
