@@ -3955,7 +3955,7 @@
        fy="954.1178"
        r="59.147999"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0012857e-7,0.02921662,-2.4554229,0,2598.5414,765.94132)" />
+       gradientTransform="matrix(1.2600603e-7,0.02921662,-3.0900082,0,3204.0105,765.94132)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4735"
@@ -3966,7 +3966,7 @@
        fy="1032.6566"
        r="59.147999"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.0081671e-7,-0.02921662,2.4722976,0,-2357.9251,769.25707)" />
+       gradientTransform="matrix(-1.2694541e-7,-0.02921662,3.1130439,0,-3019.596,769.25707)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5138"
@@ -4995,10 +4995,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.5657988"
-     inkscape:cx="127.53504"
-     inkscape:cy="134.87188"
+     inkscape:cx="202.84624"
+     inkscape:cy="199.45323"
      inkscape:document-units="px"
-     inkscape:current-layer="g7494-4"
+     inkscape:current-layer="g5734-0"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -5926,13 +5926,13 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
       <path
          inkscape:connector-curvature="0"
          id="rect4157-9-2-3-6-0-9"
-         d="m 259.08738,768.51591 v -1.96524 h 135.20257 v 1.96524 z"
+         d="m 267.02118,768.51591 v -1.96524 h 100.82276 v 1.96524 z"
          style="opacity:1;fill:url(#radialGradient4165-4-3-3-7-7-6);fill-opacity:1;stroke:#000000;stroke-width:0.04168241;stroke-miterlimit:4;stroke-dasharray:none"
          sodipodi:nodetypes="ccccc" />
       <path
          inkscape:connector-curvature="0"
          id="rect4157-9-2-3-6-6"
-         d="m 55.71003,768.51591 v -1.96524 h 135.20259 v 1.96524 z"
+         d="m 82.156035,768.51591 v -1.96524 H 182.97882 v 1.96524 z"
          style="opacity:1;fill:url(#radialGradient4165-4-3-3-7-2);fill-opacity:1;stroke:#000000;stroke-width:0.04168241;stroke-miterlimit:4;stroke-dasharray:none"
          sodipodi:nodetypes="ccccc" />
     </g>
@@ -6562,7 +6562,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
          ry="8.5216379"
          rx="7.3538461"
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.25186014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:0.6;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.25186014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5400-1"
          cx="31.891357"
          cy="-853.19055" />
@@ -7042,7 +7042,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
          ry="8.5216379"
          rx="7.3538461"
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.25186014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:0.6;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.25186014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5400-1-5"
          cx="31.891357"
          cy="-853.19055" />
