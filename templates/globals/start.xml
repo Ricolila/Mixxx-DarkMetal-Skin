@@ -840,7 +840,20 @@
 		<Connection>
 		<ConfigKey>[Master],audio_latency_usage</ConfigKey>
 		</Connection>
-		</VuMeter>								
+		</VuMeter>		
+		<Number>
+		<ObjectName>TextsSmallDark</ObjectName>
+		<Pos>40,27</Pos>
+		<Size>30f,10f</Size>
+		<!-- <DisplayUnit></DisplayUnit> -->
+		<NumberOfDigits>2</NumberOfDigits>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>		
+		<Connection>
+		<ConfigKey>[Master],audio_latency_usage</ConfigKey>
+		<!-- <Transform><Add>100.0</Add></Transform> -->
+		</Connection>
+		</Number>
 		</Children>			
 		</WidgetGroup>
 

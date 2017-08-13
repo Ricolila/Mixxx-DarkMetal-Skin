@@ -185,6 +185,7 @@
 	<!-- Strobes: (Racks + Modules) -->
 	<attribute persist="true" config_key="[StrobesRack],show">0</attribute>
 	<attribute persist="true" config_key="[StrobesMaximize],show">1</attribute>
+	<!-- <attribute persist="true" config_key="[StrobesModule0],show">1</attribute> --> <!-- Channel: Master -->
 	<attribute persist="true" config_key="[StrobesModule1],show">1</attribute>
 	<attribute persist="true" config_key="[StrobesModule2],show">1</attribute>
 	<attribute persist="true" config_key="[StrobesModule3],show">0</attribute>

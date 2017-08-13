@@ -1,6 +1,7 @@
 
 	/* ##################################################################################################################### */
-	/* SKIN ELEMETS STYLES:																								     */	
+	/* DARK METAL SKIN - STYLES:	        																			     */
+	/* For an easier edit: Open this file with "Notepad++". Then select: "Language" --> "C" --> "CSS"                        */		
 	/* ##################################################################################################################### */	
 	
 	#Mixxx {
@@ -13,6 +14,18 @@
 	qproperty-layoutAlignment:'AlignCenter | AlignTop';
 	border:0px; margin:0; padding:0px;
     }
+
+	#TextsSmallBright {	
+	border:0px solid #000000; font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#cacaca;
+	qproperty-alignment:'AlignCenter';
+	qproperty-wordWrap:false;
+	}
+
+	#TextsSmallDark {	
+	border:0px solid #000000; font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#555555;
+	qproperty-alignment:'AlignCenter';
+	qproperty-wordWrap:false;
+	}
 
 	
 	#ToolBarTests {
@@ -58,7 +71,8 @@
 	background:url(skin:graphics/background_record.svg) no-repeat; margin:0; padding:0;	
 	}
 	#RecordTexts {
-	border:0px solid #000000; font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a; qproperty-alignment:'AlignCenter';
+	border:0px solid #000000; font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a;
+	qproperty-alignment:'AlignCenter';
 	qproperty-wordWrap:false;
 	}
 	#AutoDJ {
@@ -68,7 +82,8 @@
 	background:url(skin:graphics/background_clock.svg) no-repeat; margin:0; padding:0;	
 	}	
 	#ClockTexts {
-	border:0px solid #000000; font:normal 12px/14px 'digital'; font-family:'digital'; background-color:transparent; color:#cacaca; qproperty-alignment:'AlignCenter';
+	border:0px solid #000000; font:normal 12px/14px 'digital'; font-family:'digital'; background-color:transparent; color:#cacaca;
+	qproperty-alignment:'AlignCenter';
 	qproperty-wordWrap:false;
 	}	
 	#LatencyVumeter {
@@ -323,7 +338,8 @@
 	border:0px solid #000000; margin:0px; background:url(skin:graphics/background_racks_110.svg); repeat;
 	}
 	#SamplersTexts {
-	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a; text-align:left; padding:0px;
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a;
+	text-align:left; padding:0px;
 	padding-left:2px;
 	padding-top:-2px;
 	}	
@@ -344,7 +360,8 @@
 	border:0px solid #000000; margin:0px; background:url(skin:graphics/background_racks_85.svg); repeat;
 	}
 	#EffectsSelector {
-	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#cacaca; border:0px solid #000000; text-align:center; padding:0px;
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#cacaca; border:0px solid #000000;
+	text-align:center; padding:0px;
 	margin:0px;
 	}	
 	#Effect, #EffectParameterButton {
@@ -377,7 +394,8 @@
 	border:1px solid #656565; background:#000000;
 	}
 	#PreviewDeck1Texts {
-	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a; text-align:left; padding-left:2px;
+	font:normal 10px/12px 'digital'; font-family:'digital'; background-color:transparent; color:#7a7a7a;
+	text-align:left; padding-left:2px;
 	}
 	
 	
