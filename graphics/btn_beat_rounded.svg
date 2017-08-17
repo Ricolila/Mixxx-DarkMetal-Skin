@@ -64,7 +64,7 @@
        fy="1041.8982"
        r="9.5238771"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9411098,0,0,1.8377878,34.103143,-878.42557)" />
+       gradientTransform="matrix(1.8603565,0,0,1.7613328,33.335959,-798.76724)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -74,8 +74,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="45.335862"
-     inkscape:cx="-2.055209"
-     inkscape:cy="3.4071197"
+     inkscape:cx="5.3897871"
+     inkscape:cy="4.0848104"
      inkscape:document-units="px"
      inkscape:current-layer="g4496"
      showgrid="false"
@@ -116,13 +116,19 @@
          cy="1036.3622"
          cx="15.661922"
          id="path823"
-         style="opacity:1;fill:#969696;fill-opacity:1;stroke:none;stroke-width:3.25079274;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#828282;fill-opacity:1;stroke:none;stroke-width:3.25079274;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <circle
          cx="15.661922"
          cy="1036.3622"
-         r="12.8"
+         r="12.267499"
          id="path823-7"
-         style="opacity:1;fill:url(#radialGradient854);fill-opacity:1;stroke:none;stroke-width:2.93095255;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:url(#radialGradient854);fill-opacity:1;stroke:none;stroke-width:2.80902004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.95963919;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 15.670099,1024.6519 c -5.053006,0 -9.4270213,3.0445 -10.5258408,7.3183 1.9739922,-3.1941 6.0545328,-5.2189 10.5258408,-5.2229 4.455403,0 8.52559,2.011 10.509488,5.187 -1.113977,-4.2544 -5.474837,-7.2761 -10.509488,-7.2824 z m 10.509488,7.2824 -21.0353288,0.045 z"
+         id="path5934"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc" />
     </g>
   </g>
 </svg>
