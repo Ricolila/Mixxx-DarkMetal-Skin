@@ -49,12 +49,12 @@
 				
 		<NumberDb>
 		<ObjectName>DBNumberDisplay</ObjectName>
-		<Pos>140,15</Pos>
+		<Pos>143,15</Pos>
 		<Size>43f,22f</Size>
 		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>1</NumberOfDigits>
 		<Text>%1</Text>
-		<Alignment>right</Alignment>		
+		<Alignment>center</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],pregain</ConfigKey>
 		</Connection>
@@ -62,12 +62,12 @@
 		
 		<NumberDb>
 		<ObjectName>DBNumberDisplay</ObjectName>
-		<Pos>261,15</Pos>
+		<Pos>264,15</Pos>
 		<Size>43f,22f</Size>
 		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>1</NumberOfDigits>
 		<Text>%1</Text>
-		<Alignment>right</Alignment>		
+		<Alignment>center</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],pregain</ConfigKey>
 		</Connection>
