@@ -46,28 +46,28 @@
 		Texts - Gains
 		**********************************************
 		-->
-		
+				
 		<NumberDb>
 		<ObjectName>DBNumberDisplay</ObjectName>
-		<Pos>142,15</Pos>
+		<Pos>140,15</Pos>
 		<Size>43f,22f</Size>
 		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>1</NumberOfDigits>
 		<Text>%1</Text>
-		<Alignment>center</Alignment>		
+		<Alignment>right</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],pregain</ConfigKey>
 		</Connection>
-		</NumberDb>	
-
+		</NumberDb>
+		
 		<NumberDb>
 		<ObjectName>DBNumberDisplay</ObjectName>
-		<Pos>264,15</Pos>
+		<Pos>261,15</Pos>
 		<Size>43f,22f</Size>
 		<DisplayUnit></DisplayUnit>
 		<NumberOfDigits>1</NumberOfDigits>
 		<Text>%1</Text>
-		<Alignment>center</Alignment>		
+		<Alignment>right</Alignment>		
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],pregain</ConfigKey>
 		</Connection>
@@ -115,7 +115,7 @@
 		<ObjectName>BeatSyncDisplay</ObjectName>		
 		<Pos>19,23</Pos>
 		<Size>40f,14</Size>
-		<Alignment>center</Alignment>
+		<Alignment>right</Alignment>
 		<NumberOfDigits>1</NumberOfDigits>
 		<Channel><Variable name="audiochannel_a"/></Channel>
 		<Connection>
@@ -144,9 +144,9 @@
 
 		<NumberBpm>
 		<ObjectName>BeatSyncDisplay</ObjectName>		
-		<Pos>406,23</Pos>
+		<Pos>405,23</Pos>
 		<Size>40f,14</Size>
-		<Alignment>center</Alignment>
+		<Alignment>right</Alignment>
 		<NumberOfDigits>1</NumberOfDigits>
 		<Channel><Variable name="audiochannel_b"/></Channel>
 		<Connection>
@@ -184,16 +184,16 @@
 		<Channel><Variable name="audiochannel_a"/></Channel>
 		<Pos>19,46</Pos>
 		<Size>40f,14</Size>
-		<Alignment>center</Alignment>
+		<Alignment>right</Alignment>
 		<NumberOfDigits>1</NumberOfDigits>
 		</NumberRate>
 
 		<NumberRate>
 		<ObjectName>PitchRateDisplay</ObjectName>
 		<Channel><Variable name="audiochannel_b"/></Channel>
-		<Pos>406,46</Pos>
+		<Pos>405,46</Pos>
 		<Size>40f,14</Size>
-		<Alignment>center</Alignment>
+		<Alignment>right</Alignment>
 		<NumberOfDigits>1</NumberOfDigits>
 		</NumberRate>
 		
@@ -209,7 +209,7 @@
 		<Channel><Variable name="audiochannel_a"/></Channel>
 		<Pos>19,69</Pos>
 		<Size>40f,14</Size>
-		<Alignment>center</Alignment>
+		<Alignment>right</Alignment>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_a"/>],visual_key</ConfigKey>
 		</Connection>
@@ -218,9 +218,9 @@
 		<Key>
 		<ObjectName>KeyNumberDisplay</ObjectName>
 		<Channel><Variable name="audiochannel_b"/></Channel>
-		<Pos>406,69</Pos>
+		<Pos>405,69</Pos>
 		<Size>40f,14</Size>
-		<Alignment>center</Alignment>
+		<Alignment>right</Alignment>
 		<Connection>
 		<ConfigKey>[Channel<Variable name="audiochannel_b"/>],visual_key</ConfigKey>
 		</Connection>

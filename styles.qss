@@ -406,8 +406,8 @@
 	#Rack500 {
 	border:0px solid #000000; margin:0px; background:url(skin:graphics/rack_500.svg); no-repeat;
 	border-image:url(skin:graphics/rack_500.svg) 0 0 0 0 stretch stretch; /* Stretch trick:On! */
-	}
-	
+	}	
+
 	
 	/* ##################################################################################################################### */
 	/* GLOBAL STYLES:																										 */	
