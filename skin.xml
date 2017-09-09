@@ -468,7 +468,7 @@
 	<SizePolicy>me,me</SizePolicy>
 	<Layout>vertical</Layout>
 	<!-- STARTS - ALL THE LAYOUT: -->
-	<Children>		
+	<Children>
 	
 	<!-- ROW: Rack for TEST/DEBUG PURPOSES only. To "show/hide", you have to "comment/uncomment" the next line: -->
 	<!-- <Template src="skin:templates/tests/start.xml"></Template> -->
@@ -486,8 +486,8 @@
     <Template src="skin:templates/strobes/start.xml"><SetVariable name="strobetype">1</SetVariable></Template>
 	<!-- ROW: Microphones -->
     <Template src="skin:templates/microphones/start.xml"></Template>
-	<!-- ROW: Big Decks (The USER variable "spinnytype" could be set to: "bobine", "cd" or "vinyl") -->
-	<Template src="skin:templates/bigdecks/start.xml"><SetVariable name="spinnytype">bobine</SetVariable></Template>
+	<!-- ROW: Big Decks (The USER variable "spinnytype" could be set to: "1", "2" or "3") -->
+	<Template src="skin:templates/bigdecks/start.xml"><SetVariable name="spinnytype">1</SetVariable></Template>
 	<!-- ROW: Mini Decks -->
     <Template src="skin:templates/minidecks/start.xml"></Template>
 	<!-- ROW: Auxiliaries -->

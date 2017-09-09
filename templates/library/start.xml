@@ -1,7 +1,7 @@
 <!DOCTYPE template>
 
 <Template>
-	
+
 	<WidgetGroup>
     <ObjectName>LibraryArea</ObjectName>	
 	<MinimumSize>1,65</MinimumSize>
