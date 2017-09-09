@@ -22,27 +22,24 @@
 
 =================================================================================
 
-**HOW-TO: Select one from the many available color schemes ?...**
+**How-Tos...**
 
-- 1) Start your Mixxx, then go to "Options" --> "Preferences" --> "Interface" --> "Color scheme" --> Select a scheme.
-- 2) Done!...
+**HOW-TO:** Change between the three available type of "Strob lights"?... (squared/rounded/line)
+1) Open the "skin.xml" search and replace the variable "strobtype"´s value by "1", "2" or "3".
+2) Save the file. Reload the skin... Done!...
 
+**HOW-TO:** Change between the three available spinning "discs"?... (bobine/cd/vinyl)
+1) Open the "skin.xml" search and replace the variable "spinnytype"´s value by "1", "2" or "3".
+2) Save the file. Reload the skin... Done!...
 
-=================================================================================
+**HOW-TO:** Select one from the many available color schemes?...
+1) Start your Mixxx, then go to "Options" > "Preferences" > "Interface" > "Color scheme" > select a color from that list.
+2) Done!...
 
-**HOW-TO: Change between the available visual spinning discs ?... (vinyl/cd/bobine)**
-
-- 1) Open the "deck_left.xml" and "deck_right.xml" files.
-- 2) Search for the "spinny_bobine.svg" texts, and replace them all by "spinny_cd.svg" or "spinny_vinyl.svg". Save the file.
-- 3) Done!...
-
-=================================================================================
-
-**HOW-TO: Create my own color scheme ?...**
-
-- 1) Open the "skinl.xml" file.
-- 2) Search and write between the `<Schemes>` `</Schemes>` tags, something similar to this: `<Scheme><Name>My own color scheme</Name><Filters><HSVTweak><HConst>0</HConst><SConst>-60</SConst><VConst>0</VConst></HSVTweak></Filters></Scheme>` Save the file.
-- 3) Done!...
+**HOW-TO:** Create my own custom color scheme?...
+1) Open the "skin.xml" file.
+2) Create a new <Scheme> group, play with <HConst> and <SConst> values (see the existent ones there as examples), save that file and reload the skin to test it (this is done by selecting the "DarkMetal" skin again, from that dropdown menu). And... If the result is great, don´t forget to share it with us!!
+3) Done!...
 
 ---------------------------------------------------------------------------------
 
