@@ -21,7 +21,7 @@
 5) Start your Mixxx, then go to "Options" --> "Preferences" --> "Interface" --> "Skin" --> Select "DarkMetal" option.
 6) Done!...
 
-**HOW-TO:** Change between the three available type of "Strob lights"?... (squared/rounded/line)
+**HOW-TO:** Change between the three available type of "strob lights"?... (squared/rounded/line)
 1) Open the "skin.xml" search and replace the variable "strobtype"´s value by "1", "2" or "3".
 2) Save the file. Reload the skin... Done!...
 
