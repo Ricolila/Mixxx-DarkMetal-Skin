@@ -2,27 +2,24 @@
 
 ![mixxx_dark_metal_thumb](https://cloud.githubusercontent.com/assets/5511928/22786461/937bac60-eed0-11e6-866a-d2e5b9fa17f6.jpg)
 
-**FEATURES:**
+**DARK METAL SKIN FEATURES:**
 
-- 1) 100% Scalable Vector Graphics (SVG) - 100% Quality lossless graphics - Not even one bitmat anywhere.
-- 2) Fully resizable - Small screen users can use it too - All elements must fit nicely in all resolutions. Please note that If your resolution is too small, some racks (rows) may overlap, but even so you still can disable their visibility (there are lots of buttons, in the top bar, for that. These buttons are always visible, no matter what, even you "enable" everything). Ready from 1024x550, to... infinity and beyound.
-- 3) Mixxx features - Contains the lattest Mixxx features - But... I´m sure that not all tasks arent done, so I´m always sharping the graphics, correcting issues, adding forgotten and/or new stuff, etc...
-- 4) Unique features - Contains original and unique features - I´ll try to add features not available (yet!...) anywhere else, they must be functional too, of course. Like the analog VUs, the digital font, a grey only color scheme (A tribute to 1927´s Metropolis film), etc... Our imagination versus the code will be the limit...
-
----------------------------------------------------------------------------------
-
-**HOW-TO: Install ?...**
-
-- 1) Remove any older version of "DarkMetal". *(Just delete the "DarkMetal" folder... IF you already have one)*
-- 2) Download and unzip the "DarkMetal.zip" archive. *(~1Mb only file size)*
-- 3) Move the new folder (with all contents), to your Mixxx skins folder. *(An path example in Windows OS: C:\Program Files\Mixxx\skins\DarkMetal)*
-- 4) Double click in the included "digital.otf" to install that font.
-- 5) Start your Mixxx, then go to "Options" --> "Preferences" --> "Interface" --> "Skin" --> Select "DarkMetal" option.
-- 6) Done!...
+1) 100% Scalable Vector Graphics (SVG) - 100% Quality lossless graphics - Not even one bitmat anywhere.
+2) Fully resizable - Small screen users can use it too - All elements must fit nicely in all resolutions. Please note that If your resolution is too small, some racks (rows) may overlap, but even so you still can disable their visibility (there are lots of buttons, in the top bar, for that. These buttons are always visible, no matter what, even you "enable" everything). Ready from 1024x550, to... infinity and beyound.
+3) Mixxx features - Contains the lattest Mixxx features - But... I´m sure that not all tasks arent done, so I´m always sharping the graphics, correcting issues, adding forgotten and/or new stuff, etc...
+4) Unique features - Contains original and unique features - I´ll try to add features not available (yet!...) anywhere else, they must be functional too, of course. Like the analog VUs, the digital font, a grey only color scheme (A tribute to 1927´s Metropolis film), etc... Our imagination versus the code will be the limit...
 
 =================================================================================
 
 **How-Tos...**
+
+**HOW-TO:** Install Dark Metak Skin?...
+1) Remove any older version of "DarkMetal". *(Just delete the "DarkMetal" folder... IF you already have one)*
+2) Download and unzip the "DarkMetal.zip" archive. *(~1.5Mb file size)*
+3) Move the new folder (with all contents), to your Mixxx skins folder. *(An path example in Windows OS: C:\Program Files\Mixxx\skins\DarkMetal)*
+4) Double click in the included "digital.otf" to install that font.
+5) Start your Mixxx, then go to "Options" --> "Preferences" --> "Interface" --> "Skin" --> Select "DarkMetal" option.
+6) Done!...
 
 **HOW-TO:** Change between the three available type of "Strob lights"?... (squared/rounded/line)
 1) Open the "skin.xml" search and replace the variable "strobtype"´s value by "1", "2" or "3".
