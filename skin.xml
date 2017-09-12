@@ -125,6 +125,9 @@
 	<attribute persist="true" config_key="[Library],show_current">1</attribute>	
 	<!-- <attribute persist="true" config_key="[Library],show_library">1</attribute> -->
 
+	<!-- Logo: (Your own logo) -->
+	<attribute persist="true" config_key="[Logo],show">0</attribute>
+	
 	<!-- Big Decks: (Rack + Modules) -->
 	<attribute persist="true" config_key="[BigDecksRack],show">1</attribute>
 	<attribute persist="true" config_key="[BigDecksMaximize],show">1</attribute>
@@ -474,6 +477,8 @@
 	<!-- <Template src="skin:templates/tests/start.xml"></Template> -->
 	<!-- ROW: Show/Hide Racks buttons -->
 	<Template src="skin:templates/toolbar/start.xml"></Template>
+	<!-- ROW: Your own logo goes here (Edit the file "background_mylogo.svg" fo fit your needs) -->
+    <Template src="skin:templates/logo/start.xml"></Template>
 	<!-- ROW: Global Volume + Analog VUs + Latency + Clock + Battery (...) -->
     <Template src="skin:templates/globals/start.xml"></Template>
 	

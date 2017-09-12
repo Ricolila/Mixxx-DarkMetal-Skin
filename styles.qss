@@ -47,6 +47,18 @@
 	background:url(skin:graphics/background_toolbar1.svg) repeat;
 	}
 	
+
+	#ToolBarLogo {
+	qproperty-layoutAlignment:'AlignCenter | AlignTop';
+	background-color:#000000; border:0px; margin:0; padding:0px;
+	background:url(skin:graphics/background_logo.svg) repeat;
+	}
+	#MyLogo {
+	qproperty-layoutAlignment:'AlignCenter | AlignTop';
+	background-color:#000000; border:0px; margin:0; padding:0px;
+	background:url(skin:graphics/background_mylogo.svg) no-repeat;
+	}
+	
 	
 	#ToolBar2 {
 	qproperty-layoutAlignment:'AlignCenter | AlignTop';
