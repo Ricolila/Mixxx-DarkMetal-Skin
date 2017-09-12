@@ -38,6 +38,11 @@
 2) Create a new <Scheme> group, play with <HConst> and <SConst> values (see the existent ones there as examples), save that file and reload the skin to test it (this is done by selecting the "DarkMetal" skin again, from that dropdown menu). And... If the result is great, don´t forget to share it with us!!
 3) Done!...
 
+**HOW-TO:** Create and display my own logo?...
+1) Open the "background_mylogo.svg" file, you may use INKSCAPE. (This file is located inside the "graphics" folder).
+2) Draw your own logo, or just type your texts there.
+3) Save the file. Reload the skin... Done!...
+
 ---------------------------------------------------------------------------------
 
 Skin Developer Tools:
