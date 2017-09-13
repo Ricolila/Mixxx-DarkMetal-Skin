@@ -32,20 +32,20 @@
 		
 		
 		
-		<!-- STARTS: YOUR LOGO -->
+		<!-- STARTS: DISPLAY YOUR LOGO -->
 		
 		
 		
 		<WidgetGroup>
 		<ObjectName>MyLogo</ObjectName>
-		<MinimumSize>600,45</MinimumSize>
-		<SizePolicy>me,f</SizePolicy>
+		<MinimumSize>900,45</MinimumSize>
+		<SizePolicy>f,f</SizePolicy>
 		<Children><!-- Design --></Children>
 		</WidgetGroup>
 		
 		
 		
-		<!-- ENDS: YOUR LOGO -->
+		<!-- ENDS: DISPLAY YOUR LOGO -->
 
 		
 		
