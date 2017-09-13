@@ -317,14 +317,7 @@
 		<Children></Children>
 		</WidgetGroup>
 		
-		<WidgetGroup><!-- Design only: For creating an vertical separator line -->
-		<ObjectName>VerticalLineDarker30</ObjectName>
-		<MinimumSize>1,30</MinimumSize>
-		<SizePolicy>f,me</SizePolicy>
-		<Layout>horizontal</Layout>				
-		<Children></Children>
-		</WidgetGroup>		
-
+		
 
 		</Children>
 		</WidgetGroup>
