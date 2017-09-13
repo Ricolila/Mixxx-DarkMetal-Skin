@@ -75,11 +75,11 @@
        xlink:href="#linearGradient5282"
        id="radialGradient4196-1"
        cx="767.797"
-       cy="229.94572"
+       cy="229.94518"
        fx="767.797"
-       fy="229.94571"
+       fy="229.94516"
        r="32.034878"
-       gradientTransform="matrix(-6.0821113e-5,0.73017708,-127.69014,-6.4044382e-4,29467.021,469.38175)"
+       gradientTransform="matrix(-6.0821113e-5,0.84060122,-127.69014,0.00226839,29467.021,383.92954)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient5282"
@@ -102,7 +102,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.65381"
-     inkscape:cx="90.264542"
+     inkscape:cx="61.522862"
      inkscape:cy="33.854935"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -123,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Jorge Rosa</dc:title>
