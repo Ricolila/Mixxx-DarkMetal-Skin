@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="800"
+   width="210"
    height="45"
-   viewBox="0 0 800 45"
+   viewBox="0 0 210 45"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.1 r15371"
@@ -49,14 +49,37 @@
        id="EMFhbasepattern-4" />
     <radialGradient
        inkscape:collect="always"
+       xlink:href="#linearGradient5282-0"
+       id="radialGradient4196-1-1"
+       cx="767.797"
+       cy="229.94357"
+       fx="767.797"
+       fy="229.94356"
+       r="32.034878"
+       gradientTransform="matrix(-6.0821108e-5,0.63020307,-127.69013,-0.01708979,29467.025,549.92399)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient5282-0"
+       inkscape:collect="always">
+      <stop
+         id="stop5284-8"
+         offset="0"
+         style="stop-color:#505050;stop-opacity:1" />
+      <stop
+         id="stop5286-4"
+         offset="1"
+         style="stop-color:#050505;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient5282"
        id="radialGradient4196-1"
        cx="767.797"
-       cy="229.9465"
+       cy="229.94572"
        fx="767.797"
-       fy="229.94649"
+       fy="229.94571"
        r="32.034878"
-       gradientTransform="matrix(-2.3169946e-4,0.73692646,-486.4386,-0.05961517,112255.32,477.76067)"
+       gradientTransform="matrix(-6.0821113e-5,0.73017708,-127.69014,-6.4044382e-4,29467.021,469.38175)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient5282"
@@ -64,11 +87,11 @@
       <stop
          id="stop5284"
          offset="0"
-         style="stop-color:#a0a0a0;stop-opacity:1" />
+         style="stop-color:#b4b4b4;stop-opacity:1" />
       <stop
          id="stop5286"
          offset="1"
-         style="stop-color:#1a1a1a;stop-opacity:1" />
+         style="stop-color:#0a0a0a;stop-opacity:1" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
@@ -78,9 +101,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.9978474"
-     inkscape:cx="399.12904"
-     inkscape:cy="-3.3055131"
+     inkscape:zoom="5.65381"
+     inkscape:cx="90.264542"
+     inkscape:cy="33.854935"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -100,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:creator>
           <cc:Agent>
             <dc:title>Jorge Rosa</dc:title>
@@ -118,8 +141,8 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
      transform="translate(0,-1007.3622)">
     <path
        inkscape:connector-curvature="0"
-       id="rect4183-9-9"
-       d="m 800,1007.3622 0,45 -800.00000055000009,0 0,-44.9999 z"
-       style="opacity:1;fill:url(#radialGradient4196-1);fill-opacity:1;stroke:none;stroke-width:0.79799998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       id="rect4183-9"
+       d="m 210,1007.3622 v 45 H 4.75e-7 v -44.9999 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65747356px;line-height:100%;font-family:'Estrangelo Edessa';-inkscape-font-specification:'Estrangelo Edessa, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:url(#radialGradient4196-1);fill-opacity:1;stroke:none;stroke-width:0.70250881;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>
