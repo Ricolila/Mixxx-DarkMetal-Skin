@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="600"
+   width="900"
    height="45"
-   viewBox="0 0 600 45"
+   viewBox="0 0 900 45"
    id="svg2"
    version="1.1"
    inkscape:version="0.92.1 r15371"
@@ -57,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.9732821"
-     inkscape:cx="263.06949"
-     inkscape:cy="18.510813"
+     inkscape:zoom="1.2433205"
+     inkscape:cx="407.24471"
+     inkscape:cy="-28.814052"
      inkscape:document-units="px"
      inkscape:current-layer="g4183"
      showgrid="false"
@@ -81,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:creator>
           <cc:Agent>
             <dc:title>Jorge Rosa</dc:title>
@@ -107,7 +107,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
            aria-label="DJ mixxx - after hours sessions"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.31412697px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Estrangelo Edessa, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:0.60785317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            id="text4528-5-3"
-           transform="matrix(0.83137279,0,0,0.83137279,50.541075,173.12841)">
+           transform="matrix(0.83137279,0,0,0.83137279,200.54107,173.12841)">
           <path
              d="m 166.04647,1030.3832 q 0,-1.4128 -0.45114,-2.4338 -0.43927,-1.021 -1.27032,-1.6858 -0.81917,-0.6649 -2.01826,-0.9735 -1.18721,-0.3206 -2.6831,-0.3206 h -1.81644 v 11.3973 h 1.60274 q 1.51963,0 2.74246,-0.4156 1.23471,-0.4274 2.10137,-1.1991 0.86667,-0.7835 1.32968,-1.8876 0.46301,-1.116 0.46301,-2.4813 z m 2.41005,-0.024 q 0,1.7926 -0.66484,3.2648 -0.65297,1.4721 -1.84018,2.5288 -1.18722,1.0447 -2.83744,1.6146 -1.65023,0.5698 -3.63288,0.5698 h -4.01278 v -15.3625 h 4.20274 q 2.08949,0 3.71598,0.4749 1.63835,0.463 2.7662,1.4009 1.12785,0.926 1.70959,2.315 0.59361,1.3772 0.59361,3.1937 z"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Estrangelo Edessa';-inkscape-font-specification:'Estrangelo Edessa';fill:#f0f0f0;fill-opacity:1;stroke-width:0.60785317px"
@@ -243,7 +243,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
            aria-label="DJ mixxx - after hours sessions"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.31412697px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Estrangelo Edessa, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.60785317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            id="text4528-5"
-           transform="matrix(0.83137279,0,0,0.83137279,50.541075,173.12791)">
+           transform="matrix(0.83137279,0,0,0.83137279,200.54107,173.12791)">
           <path
              d="m 166.04647,1028.6831 q 0,-1.4128 -0.45114,-2.4338 -0.43927,-1.021 -1.27032,-1.6858 -0.81917,-0.6648 -2.01826,-0.9735 -1.18721,-0.3206 -2.6831,-0.3206 h -1.81644 v 11.3973 h 1.60274 q 1.51963,0 2.74246,-0.4155 1.23471,-0.4274 2.10137,-1.1991 0.86667,-0.7836 1.32968,-1.8877 0.46301,-1.116 0.46301,-2.4813 z m 2.41005,-0.024 q 0,1.7927 -0.66484,3.2648 -0.65297,1.4722 -1.84018,2.5288 -1.18722,1.0447 -2.83744,1.6146 -1.65023,0.5699 -3.63288,0.5699 h -4.01278 v -15.3626 h 4.20274 q 2.08949,0 3.71598,0.4749 1.63835,0.463 2.7662,1.4009 1.12785,0.926 1.70959,2.3151 0.59361,1.3771 0.59361,3.1936 z"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Estrangelo Edessa';-inkscape-font-specification:'Estrangelo Edessa';fill:#000000;fill-opacity:1;stroke-width:0.60785317px"
@@ -379,7 +379,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
            aria-label="DJ mixxx - after hours sessions"
            style="font-style:normal;font-weight:normal;font-size:24.31412697px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#505050;fill-opacity:1;stroke:none;stroke-width:0.60785317px"
            id="text4528"
-           transform="matrix(0.83137279,0,0,0.83137279,50.541075,173.1281)">
+           transform="matrix(0.83137279,0,0,0.83137279,200.54107,173.1281)">
           <path
              d="m 166.04647,1029.5831 q 0,-1.4127 -0.45114,-2.4337 -0.43927,-1.021 -1.27032,-1.6859 -0.81917,-0.6648 -2.01826,-0.9735 -1.18721,-0.3205 -2.6831,-0.3205 h -1.81644 v 11.3972 h 1.60274 q 1.51963,0 2.74246,-0.4155 1.23471,-0.4274 2.10137,-1.1991 0.86667,-0.7836 1.32968,-1.8877 0.46301,-1.116 0.46301,-2.4813 z m 2.41005,-0.024 q 0,1.7927 -0.66484,3.2648 -0.65297,1.4722 -1.84018,2.5288 -1.18722,1.0448 -2.83744,1.6146 -1.65023,0.5699 -3.63288,0.5699 h -4.01278 v -15.3626 h 4.20274 q 2.08949,0 3.71598,0.4749 1.63835,0.463 2.7662,1.4009 1.12785,0.9261 1.70959,2.3151 0.59361,1.3772 0.59361,3.1936 z"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Estrangelo Edessa';-inkscape-font-specification:'Estrangelo Edessa';fill:#505050;fill-opacity:1;stroke-width:0.60785317px"
@@ -515,7 +515,7 @@ Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
            aria-label="Before save, select: (In Inkscape) Path --&gt; Object to PathTexts as paths"
            style="font-style:normal;font-weight:normal;font-size:15.06609058px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37665227px"
            id="text4529"
-           transform="translate(41.651727,-94.692621)">
+           transform="translate(191.65173,-11.849945)">
           <path
              d="m 94.919755,971.19921 q 0,-0.26483 -0.08828,-0.50024 -0.08828,-0.24276 -0.294259,-0.42668 -0.198626,-0.18391 -0.522311,-0.2869 -0.316329,-0.11035 -0.779788,-0.11035 -0.286903,0 -0.500241,0.007 -0.205982,0.007 -0.375181,0.0221 v 2.89846 h 0.603232 q 0.956344,0 1.456585,-0.41197 0.500241,-0.41196 0.500241,-1.19175 z m 0.514954,4.26677 q 0,-0.77244 -0.52231,-1.14026 -0.522311,-0.36782 -1.544863,-0.36782 h -1.007839 v 3.14857 q 0.235407,0.0221 0.507598,0.0368 0.279546,0.007 0.617945,0.007 0.919561,0 1.434515,-0.44139 0.514954,-0.44874 0.514954,-1.24324 z m 1.471298,-0.0441 q 0,0.64001 -0.213338,1.16968 -0.205982,0.52967 -0.654727,0.9122 -0.44139,0.38254 -1.1329,0.59588 -0.684153,0.21334 -1.640497,0.21334 -0.242764,0 -0.56645,-0.0147 -0.316329,-0.007 -0.647371,-0.0294 -0.323685,-0.0147 -0.625301,-0.0441 -0.301616,-0.0294 -0.514955,-0.0589 v -9.37217 q 0.434033,-0.0368 1.044622,-0.0515 0.617945,-0.0221 1.265316,-0.0221 0.750362,0 1.338881,0.16184 0.595876,0.15448 1.000483,0.4561 0.411963,0.30162 0.625301,0.74301 0.213339,0.44139 0.213339,1.01519 0,0.37518 -0.102991,0.70622 -0.102991,0.32369 -0.286903,0.59588 -0.176556,0.27219 -0.426677,0.48553 -0.25012,0.21334 -0.54438,0.35311 0.389894,0.0956 0.728292,0.2869 0.345755,0.18392 0.595876,0.46346 0.257477,0.27219 0.397251,0.63266 0.147129,0.36047 0.147129,0.80186 z"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Estrangelo Edessa';-inkscape-font-specification:'Estrangelo Edessa';stroke-width:0.37665227px"
