@@ -477,7 +477,7 @@
 	<!-- <Template src="skin:templates/tests/start.xml"></Template> -->
 	<!-- ROW: Show/Hide Racks buttons -->
 	<Template src="skin:templates/toolbar/start.xml"></Template>
-	<!-- ROW: Your own logo goes here (Edit the file "background_mylogo.svg" fo fit your needs) -->
+	<!-- ROW: Your own logo goes here (Edit the file "logo.svg" fo fit your needs) -->
     <Template src="skin:templates/logo/start.xml"></Template>
 	<!-- ROW: Global Volume + Analog VUs + Latency + Clock + Battery (...) -->
     <Template src="skin:templates/globals/start.xml"></Template>
