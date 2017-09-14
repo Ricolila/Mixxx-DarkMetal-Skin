@@ -41,7 +41,7 @@
 **HOW-TO:** Create and display my own logo?...
 1) Open any "logo_x.svg" file. These files are located at the "graphics-logos" folder. (You may use INKSCAPE to open/edit or create a new logo file)
 2) Draw your own logo, or just type your texts there. (Texts must be converted to paths, before save file)
-3) Open the "skin.xml" search and replace the variable "mylogo"´s value by "1", "2", "3", etc... (Set the number to display the logo file that should be displayed at this moment)
+3) Open the "skin.xml" search and replace the variable "mylogo"´s value by "1", "2", "3", etc... (Set the number of the "logo_x.svg" file that you intend to be displayed)
 4) Save all the files. Reload the skin... Done!...
 
 ---------------------------------------------------------------------------------
