@@ -479,7 +479,7 @@
 	<Template src="skin:templates/toolbar/start.xml"></Template>
 	<!-- ROW: Your logo goes here. The variable "mylogo" could be set to: "1", "2", "3", "4", "5" etc, etc... -->
 	<!-- As many "logo_x.svg" files that you may have there, set a number to display the one that you want display at the moment -->
-    <Template src="skin:templates/logo/start.xml"><SetVariable name="mylogo">2</SetVariable></Template>
+    <Template src="skin:templates/logo/start.xml"><SetVariable name="mylogo">1</SetVariable></Template>
 	<!-- ROW: Global Volume + Analog VUs + Latency + Clock + Battery (...) -->
     <Template src="skin:templates/globals/start.xml"></Template>
 	
