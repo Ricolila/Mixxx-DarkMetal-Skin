@@ -7,7 +7,7 @@
 1) 100% Scalable Vector Graphics (SVG) - 100% Quality lossless graphics - Not even one bitmat anywhere.
 2) Fully resizable - Small screen users can use it too - All elements must fit nicely in all resolutions. Please note that If your resolution is too small, some racks (rows) may overlap, but even so you still can disable their visibility (there are lots of buttons, in the top bar, for that. These buttons are always visible, no matter what, even you "enable" everything). Ready from 1024x550, to... infinity and beyound.
 3) Mixxx features - Contains the lattest Mixxx features - But... I´m sure that not all tasks arent done, so I´m always sharping the graphics, correcting issues, adding forgotten and/or new stuff, etc...
-4) Unique features - Contains unique and original features (I´ll try to add features not available anywhere else, but they must be functional too, of course) Like the analog VUs, the digital font, a grey only color scheme (A tribute to 1927´s Metropolis film), strobe lights, etc, etc... Our imagination versus the code will be the limit...
+4) Unique features - Contains unique and original features (I´ll try to add features not available anywhere else, but they must be functional too, of course) Like the analog VUs, the digital font, a grey only color scheme (A tribute to 1927´s Metropolis film), strobe lights, your own logos, etc, etc... Our imagination versus the code will be the limit...
 
 =================================================================================
 
@@ -42,7 +42,7 @@
 **HOW-TO:** Create and display my own logo?...
 1) Open any "logo_x.svg" file. These files are located at the "graphics-logos" folder. (You may use INKSCAPE to open/edit or create a new logo file)
 2) Draw your own logo, or just type your texts there. (Texts must be converted to paths, before saving the file)
-3) Open the "skin.xml" search and replace the variable "mylogo"´s value by "1", "2", "3", etc... (Set the variable to the number of the "logo_x.svg" file that you intend to be displayed)
+3) Open the "skin.xml" search and replace the variable "mylogo"´s value by "1", "2", "3", "4", "5", etc, etc... (Just set the variable to the number of the "logo_x.svg" file that you intend to be displayed)
 4) Save all the files. Reload the skin... Done!...
 
 ---------------------------------------------------------------------------------
