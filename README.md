@@ -14,7 +14,7 @@
 **How-Tos...**
 
 **HOW-TO:** Install Dark Metak Skin?...
-1) Note: Don´t forget to backup any "logo_x.svg" file(s)... IF you already have created any logo before.
+1) Note: Don´t forget to backup any "logo_x.svg" file(s)... *IF you already have created any logo before.*
 2) Note: Remove any older version of "DarkMetal". *(Just delete the "DarkMetal" folder... IF you already have one)*
 3) Download and unzip the "DarkMetal.zip" archive. *(~1.5Mb file size)*
 4) Move the new folder (with all contents), to your Mixxx skins folder. *(An path example in Windows OS: C:\Program Files\Mixxx\skins\DarkMetal)*
