@@ -48,15 +48,11 @@
 	}
 	
 
-	#ToolBarLogo {
+	#MyLogoRow, MyLogo {
 	qproperty-layoutAlignment:'AlignCenter | AlignTop';
 	background-color:#000000; border:0px; margin:0; padding:0px;
 	background:url(skin:graphics/background_logo.svg) repeat;
-	}
-	#MyLogo {
-	qproperty-layoutAlignment:'AlignCenter | AlignTop';
-	background-color:#000000; border:0px; margin:0; padding:0px;
-	background:url(skin:logo.svg) no-repeat;
+	/* background:url(skin:logo_1.svg) no-repeat; */
 	}
 	
 	

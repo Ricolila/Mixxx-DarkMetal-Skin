@@ -39,16 +39,26 @@
 3) Done!...
 
 **HOW-TO:** Create and display my own logo?...
-1) Open the "logo.svg" file (This file is located at the skin root. You may use INKSCAPE to open and edit it)
+1) Open any "logo_x.svg" file (These files are located at the "graphics-logos" folder. You may use INKSCAPE to open and edit.
 2) Draw your own logo, or just type your texts there.
-3) Save the file. Reload the skin... Done!...
+3) Open the "skin.xml" search and replace the variable "mylogo"´s value by "1", "2", "3", etc... 
+4) Save all the files. Reload the skin... Done!...
 
 ---------------------------------------------------------------------------------
 
-Skin Developer Tools:
-- Notepad++ *(To open and edit the XML, TXT, MD, QSS files)* - https://notepad-plus-plus.org
-- Inkscape *(To open and edit the SVG files)* - https://inkscape.org/en
-- SVG Explorer Extension *(To have SVG thumbnais in the explorer)* - https://svgextension.codeplex.com
+**The "making of" Dark Metal skin:**
+
+**TOOLS:**
+1) Notepad++ (My preferred to edit XML files): https://notepad-plus-plus.org ...OR... The "modernish" Atom: https://atom.io
+2) INKSCAPE (To draw the vectorial graphics): https://inkscape.org
+3) SVG Explorer Extension (Very handy and useful since it generates SVG thumbnails in the Windows´s explorer): https://svgextension.codeplex.com/releases/view/118790 ...OR... For GNU/Linux users, one from these (choose only the ones with SVG support, of course): http://www.tuxarena.com/2011/02/top-5-i ... ntukubuntu
+
+**TIPS:**
+1) The included SVG files in this skin, not only are the screen displayed "images", but they are the EDITABLE/WORKING files too, so they can be opened and customized by anyone else too. You just need to have INKSCAPE or similar.
+2) Avoid Corel Draw - Very powerfull and great software, but it adds extra proprietary metadata in the SVG files, what results in huge file sizes and it converts shadows into bitmaps. Besides all that, most of those files just can´t be parsed with Mixxx, or any other "standard" opensource SVG parser.
+3) Always export SVG files (from INKSCAPE) with all texts converted to paths!
+4) Preparing graphics to handle all the possible color <Schemes> correctly (When system is processing colors, to generate a new color scheme, colors may blur borders (eg: Very visible at the buttons), this happens because that colors are overriding theirs (normally defined by 1px strokes) own limits, what makes the visuals very ugly and incorrect). To avoid this: A) Degradee the colors to 100% black (or white) just before it reaches your graphic maximum width or height, just 1px before, will be enought. B) Void set <VConst> values. 0 (zero) should always be "perfect".
+5) Want to broadcast (for tests or to create your own radio)? Just go here: http://www.listen2myradio.com (Its the one that I use, fast to create an account, HQ audio stream, decent radio urls, allows 5000 listeners on the free plan, decent backoffice, decent in overall aspects). I´ve tried many many others... Just wasting my time!... Don´t waste yours... (There could be much better audio streaming servers than this one, of course. But I havent found any until the moment, and I´m completly happy with this one... at least, until now... )
 
 ---------------------------------------------------------------------------------
 

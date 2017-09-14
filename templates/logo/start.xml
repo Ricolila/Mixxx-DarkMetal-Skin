@@ -3,7 +3,7 @@
 <Template>
 
 	<WidgetGroup>
-	<ObjectName>Logo</ObjectName>
+	<ObjectName>MyLogoRow</ObjectName>
 	<Pos>0,0</Pos>
 	<MinimumSize>1,46</MinimumSize>
 	<SizePolicy>me,f</SizePolicy>
@@ -32,7 +32,7 @@
 		
 		
 		
-		<!-- STARTS: DISPLAY YOUR LOGO -->
+		<!-- STARTS: DISPLAY LOGO -->
 		
 		
 		
@@ -40,12 +40,13 @@
 		<ObjectName>MyLogo</ObjectName>
 		<MinimumSize>900,45</MinimumSize>
 		<SizePolicy>f,f</SizePolicy>
-		<Children><!-- Design --></Children>
+		<BackPath>skin:graphics-logos/logo_<Variable name="mylogo"/>.svg</BackPath>
+		<Children><!-- MY LOGO --></Children>
 		</WidgetGroup>
 		
 		
 		
-		<!-- ENDS: DISPLAY YOUR LOGO -->
+		<!-- ENDS: DISPLAY LOGO -->
 
 		
 		

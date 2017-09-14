@@ -477,8 +477,8 @@
 	<!-- <Template src="skin:templates/tests/start.xml"></Template> -->
 	<!-- ROW: Show/Hide Racks buttons -->
 	<Template src="skin:templates/toolbar/start.xml"></Template>
-	<!-- ROW: Your own logo goes here (Edit the file "logo.svg" fo fit your needs) -->
-    <Template src="skin:templates/logo/start.xml"></Template>
+	<!-- ROW: Your logo goes here (The variable "mylogo" could be set to: "1", "2", "3", "4", "5" etc...) -->
+    <Template src="skin:templates/logo/start.xml"><SetVariable name="mylogo">2</SetVariable></Template>
 	<!-- ROW: Global Volume + Analog VUs + Latency + Clock + Battery (...) -->
     <Template src="skin:templates/globals/start.xml"></Template>
 	
