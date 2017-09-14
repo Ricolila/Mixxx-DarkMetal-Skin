@@ -14,12 +14,13 @@
 **How-Tos...**
 
 **HOW-TO:** Install Dark Metak Skin?...
-1) Remove any older version of "DarkMetal". *(Just delete the "DarkMetal" folder... IF you already have one)*
-2) Download and unzip the "DarkMetal.zip" archive. *(~1.5Mb file size)*
-3) Move the new folder (with all contents), to your Mixxx skins folder. *(An path example in Windows OS: C:\Program Files\Mixxx\skins\DarkMetal)*
-4) Double click in the included "digital.otf" to install that font.
-5) Start your Mixxx, then go to "Options" --> "Preferences" --> "Interface" --> "Skin" --> Select "DarkMetal" option.
-6) Done!...
+0) Note: Don´t forget to backup any "logo_x.svg" file(s)... IF you already have created any logo before.
+0) Note: Remove any older version of "DarkMetal". *(Just delete the "DarkMetal" folder... IF you already have one)*
+1) Download and unzip the "DarkMetal.zip" archive. *(~1.5Mb file size)*
+2) Move the new folder (with all contents), to your Mixxx skins folder. *(An path example in Windows OS: C:\Program Files\Mixxx\skins\DarkMetal)*
+3) Double click in the included "digital.otf" to install that font.
+4) Start your Mixxx, then go to "Options" --> "Preferences" --> "Interface" --> "Skin" --> Select "DarkMetal" option.
+5) Done!...
 
 **HOW-TO:** Change between the three available type of "strob lights"?... (squared/rounded/line)
 1) Open the "skin.xml" search and replace the variable "strobtype"´s value by "1", "2" or "3".
